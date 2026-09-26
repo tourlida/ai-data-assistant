@@ -1,0 +1,1201 @@
+order_id,order_date,customer_id,customer_name,customer_email,country,product_id,product_name,category,quantity,unit_price,discount_pct,total_amount,status,payment_method,channel
+1,2026-02-27T04:47:00Z,4,John Smith,john.smith@example.com,United Kingdom,1,Wireless Headphones,Electronics,2,89.99,0,179.98,completed,bank_transfer,web
+2,2026-02-25T07:32:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,7,Desk Lamp,Home Office,1,39.99,0,39.99,pending,card,mobile
+3,2026-04-18T07:28:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,10,62.99,pending,card,web
+4,2026-02-09T06:48:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,card,web
+5,2026-06-04T08:51:00Z,13,Alex Martin,alex.martin@example.com,France,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,completed,paypal,mobile
+6,2026-08-01T20:39:00Z,4,John Smith,john.smith@example.com,United Kingdom,7,Desk Lamp,Home Office,1,39.99,0,39.99,refunded,card,mobile
+7,2026-02-28T09:05:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,15,59.49,refunded,card,web
+8,2026-02-11T11:22:00Z,13,Alex Martin,alex.martin@example.com,France,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,card,web
+9,2026-03-04T05:29:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,11,Backpack,Accessories,1,74.00,15,62.90,completed,card,mobile
+10,2026-02-28T01:51:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,11,Backpack,Accessories,1,74.00,0,74.00,completed,paypal,web
+11,2026-08-13T22:20:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,4,27-inch Monitor,Electronics,3,299.00,10,807.30,completed,paypal,mobile
+12,2026-07-10T17:34:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,bank_transfer,mobile
+13,2026-05-11T15:05:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,7,Desk Lamp,Home Office,1,39.99,0,39.99,refunded,card,web
+14,2026-04-19T19:04:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,11,Backpack,Accessories,1,74.00,15,62.90,completed,paypal,mobile
+15,2026-08-09T00:43:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,9,Notebook,Stationery,1,8.50,10,7.65,cancelled,card,mobile
+16,2026-04-22T05:29:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,11,Backpack,Accessories,1,74.00,0,74.00,completed,card,mobile
+17,2026-03-18T20:32:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,9,Notebook,Stationery,3,8.50,15,21.68,pending,card,web
+18,2026-08-24T00:38:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,3,USB-C Hub,Electronics,1,49.50,10,44.55,completed,paypal,web
+19,2026-03-03T01:15:00Z,4,John Smith,john.smith@example.com,United Kingdom,6,Webcam,Electronics,2,79.00,0,158.00,pending,card,web
+20,2026-07-16T04:08:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,2,Mechanical Keyboard,Electronics,3,129.00,10,348.30,cancelled,paypal,mobile
+21,2026-04-19T06:59:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,5,Laptop Stand,Accessories,1,59.90,10,53.91,pending,card,web
+22,2026-08-19T16:28:00Z,13,Alex Martin,alex.martin@example.com,France,11,Backpack,Accessories,1,74.00,5,70.30,completed,card,web
+23,2026-02-28T18:14:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,6,Webcam,Electronics,1,79.00,10,71.10,completed,card,web
+24,2026-01-19T16:15:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,2,Mechanical Keyboard,Electronics,3,129.00,0,387.00,completed,paypal,web
+25,2026-05-28T15:15:00Z,18,Clara Dubois,clara.dubois@example.com,France,3,USB-C Hub,Electronics,2,49.50,10,89.10,refunded,paypal,mobile
+26,2026-04-01T13:26:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,1,129.00,5,122.55,completed,card,web
+27,2026-03-05T06:12:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,7,Desk Lamp,Home Office,2,39.99,0,79.98,pending,paypal,web
+28,2026-08-12T02:28:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,3,USB-C Hub,Electronics,1,49.50,0,49.50,refunded,bank_transfer,web
+29,2026-01-24T07:10:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,11,Backpack,Accessories,4,74.00,0,296.00,completed,paypal,mobile
+30,2026-04-08T00:24:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,7,Desk Lamp,Home Office,3,39.99,0,119.97,completed,paypal,web
+31,2026-06-19T22:31:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,3,69.99,10,188.97,completed,card,web
+32,2026-01-16T23:20:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,1,Wireless Headphones,Electronics,1,89.99,10,80.99,completed,card,mobile
+33,2026-02-10T01:32:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,9,Notebook,Stationery,3,8.50,10,22.95,completed,card,web
+34,2026-04-14T03:56:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,2,Mechanical Keyboard,Electronics,2,129.00,0,258.00,pending,card,mobile
+35,2026-06-18T18:36:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,1,Wireless Headphones,Electronics,1,89.99,5,85.49,pending,card,web
+36,2026-03-09T12:08:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,11,Backpack,Accessories,2,74.00,0,148.00,cancelled,card,mobile
+37,2026-05-25T03:04:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,2,Mechanical Keyboard,Electronics,1,129.00,10,116.10,pending,card,mobile
+38,2026-08-14T07:23:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,3,USB-C Hub,Electronics,3,49.50,0,148.50,completed,card,mobile
+39,2026-05-16T00:42:00Z,18,Clara Dubois,clara.dubois@example.com,France,12,Bluetooth Speaker,Electronics,1,69.99,15,59.49,refunded,bank_transfer,web
+40,2026-07-10T17:09:00Z,4,John Smith,john.smith@example.com,United Kingdom,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,card,mobile
+41,2026-06-12T08:32:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,15,59.49,completed,card,web
+42,2026-01-12T00:21:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,11,Backpack,Accessories,1,74.00,0,74.00,refunded,card,web
+43,2026-04-20T17:00:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,12,Bluetooth Speaker,Electronics,1,69.99,15,59.49,completed,card,web
+44,2026-05-22T04:27:00Z,18,Clara Dubois,clara.dubois@example.com,France,1,Wireless Headphones,Electronics,2,89.99,10,161.98,completed,card,web
+45,2026-06-24T07:42:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,1,Wireless Headphones,Electronics,2,89.99,0,179.98,completed,card,mobile
+46,2026-08-10T05:51:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,10,Water Bottle,Lifestyle,2,22.00,0,44.00,refunded,card,mobile
+47,2026-07-20T13:51:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,3,USB-C Hub,Electronics,2,49.50,0,99.00,cancelled,card,web
+48,2026-08-08T15:14:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,paypal,web
+49,2026-02-19T12:21:00Z,10,George Brown,george.brown@example.com,United States,4,27-inch Monitor,Electronics,1,299.00,15,254.15,completed,card,web
+50,2026-08-04T17:21:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,11,Backpack,Accessories,1,74.00,15,62.90,completed,card,web
+51,2026-01-10T03:38:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,10,Water Bottle,Lifestyle,3,22.00,0,66.00,completed,card,web
+52,2026-04-09T18:12:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,10,Water Bottle,Lifestyle,4,22.00,0,88.00,completed,card,mobile
+53,2026-06-25T23:47:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,9,Notebook,Stationery,3,8.50,10,22.95,cancelled,card,web
+54,2026-06-09T10:42:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,3,129.00,0,387.00,refunded,card,web
+55,2026-04-14T22:18:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,5,Laptop Stand,Accessories,2,59.90,0,119.80,pending,card,web
+56,2026-07-11T05:39:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,11,Backpack,Accessories,3,74.00,15,188.70,pending,card,mobile
+57,2026-04-21T18:38:00Z,18,Clara Dubois,clara.dubois@example.com,France,1,Wireless Headphones,Electronics,1,89.99,0,89.99,cancelled,card,mobile
+58,2026-05-02T23:10:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,8,Ergonomic Chair,Home Office,2,349.00,10,628.20,cancelled,card,web
+59,2026-01-24T07:43:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,11,Backpack,Accessories,1,74.00,0,74.00,completed,card,web
+60,2026-06-06T02:29:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,1,Wireless Headphones,Electronics,1,89.99,5,85.49,completed,bank_transfer,web
+61,2026-06-17T22:00:00Z,13,Alex Martin,alex.martin@example.com,France,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,refunded,card,mobile
+62,2026-05-13T14:03:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,3,USB-C Hub,Electronics,2,49.50,15,84.15,pending,card,web
+63,2026-05-16T17:38:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,3,USB-C Hub,Electronics,2,49.50,15,84.15,completed,paypal,mobile
+64,2026-04-25T05:47:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,7,Desk Lamp,Home Office,2,39.99,10,71.98,refunded,paypal,mobile
+65,2026-07-16T16:31:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,4,27-inch Monitor,Electronics,2,299.00,0,598.00,cancelled,card,web
+66,2026-03-11T10:20:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,2,Mechanical Keyboard,Electronics,2,129.00,0,258.00,pending,card,web
+67,2026-06-30T06:04:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,4,27-inch Monitor,Electronics,1,299.00,0,299.00,completed,paypal,web
+68,2026-08-02T13:24:00Z,18,Clara Dubois,clara.dubois@example.com,France,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,refunded,bank_transfer,web
+69,2026-03-18T12:54:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,7,Desk Lamp,Home Office,1,39.99,0,39.99,refunded,paypal,mobile
+70,2026-02-26T08:27:00Z,18,Clara Dubois,clara.dubois@example.com,France,10,Water Bottle,Lifestyle,2,22.00,5,41.80,completed,card,mobile
+71,2026-07-05T05:53:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,11,Backpack,Accessories,2,74.00,5,140.60,completed,card,mobile
+72,2026-05-25T21:01:00Z,18,Clara Dubois,clara.dubois@example.com,France,1,Wireless Headphones,Electronics,3,89.99,10,242.97,completed,paypal,web
+73,2026-03-25T06:29:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,3,USB-C Hub,Electronics,1,49.50,5,47.02,completed,card,mobile
+74,2026-05-01T00:47:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,7,Desk Lamp,Home Office,1,39.99,0,39.99,pending,card,web
+75,2026-01-11T00:15:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,11,Backpack,Accessories,1,74.00,15,62.90,completed,card,mobile
+76,2026-01-30T18:13:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,4,27-inch Monitor,Electronics,1,299.00,15,254.15,completed,card,web
+77,2026-07-03T03:49:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,10,Water Bottle,Lifestyle,1,22.00,15,18.70,refunded,card,web
+78,2026-05-28T21:58:00Z,4,John Smith,john.smith@example.com,United Kingdom,10,Water Bottle,Lifestyle,1,22.00,0,22.00,completed,paypal,web
+79,2026-03-04T03:44:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,10,Water Bottle,Lifestyle,2,22.00,15,37.40,refunded,card,mobile
+80,2026-05-17T13:42:00Z,4,John Smith,john.smith@example.com,United Kingdom,10,Water Bottle,Lifestyle,2,22.00,0,44.00,completed,card,mobile
+81,2026-01-28T13:23:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,1,Wireless Headphones,Electronics,2,89.99,5,170.98,cancelled,paypal,web
+82,2026-03-11T19:51:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,3,USB-C Hub,Electronics,2,49.50,15,84.15,pending,paypal,mobile
+83,2026-08-07T07:53:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,card,mobile
+84,2026-04-08T10:01:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,completed,card,web
+85,2026-03-29T08:56:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,4,27-inch Monitor,Electronics,1,299.00,0,299.00,pending,card,mobile
+86,2026-03-03T23:26:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,9,Notebook,Stationery,3,8.50,0,25.50,completed,bank_transfer,web
+87,2026-07-22T00:05:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,11,Backpack,Accessories,2,74.00,5,140.60,completed,card,mobile
+88,2026-05-02T17:33:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,5,Laptop Stand,Accessories,2,59.90,0,119.80,completed,paypal,mobile
+89,2026-03-20T08:14:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,6,Webcam,Electronics,2,79.00,0,158.00,completed,card,web
+90,2026-02-17T06:13:00Z,4,John Smith,john.smith@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,15,59.49,cancelled,paypal,web
+91,2026-08-02T06:18:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,9,Notebook,Stationery,1,8.50,0,8.50,completed,card,web
+92,2026-03-12T01:03:00Z,10,George Brown,george.brown@example.com,United States,1,Wireless Headphones,Electronics,2,89.99,0,179.98,pending,card,web
+93,2026-03-14T15:30:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,2,Mechanical Keyboard,Electronics,2,129.00,10,232.20,completed,card,web
+94,2026-01-30T02:25:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,5,Laptop Stand,Accessories,3,59.90,5,170.71,completed,card,mobile
+95,2026-08-31T09:05:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,3,USB-C Hub,Electronics,1,49.50,10,44.55,completed,card,mobile
+96,2026-02-27T16:24:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,10,Water Bottle,Lifestyle,1,22.00,10,19.80,completed,paypal,web
+97,2026-01-16T19:47:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,7,Desk Lamp,Home Office,1,39.99,10,35.99,completed,card,web
+98,2026-02-14T17:04:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,11,Backpack,Accessories,1,74.00,0,74.00,completed,card,mobile
+99,2026-01-09T07:18:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,cancelled,card,mobile
+100,2026-07-21T20:37:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,11,Backpack,Accessories,1,74.00,0,74.00,cancelled,card,mobile
+101,2026-08-21T08:52:00Z,4,John Smith,john.smith@example.com,United Kingdom,9,Notebook,Stationery,1,8.50,0,8.50,completed,card,web
+102,2026-08-24T09:28:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,5,Laptop Stand,Accessories,1,59.90,10,53.91,completed,paypal,web
+103,2026-04-23T02:38:00Z,13,Alex Martin,alex.martin@example.com,France,5,Laptop Stand,Accessories,1,59.90,5,56.90,completed,paypal,web
+104,2026-06-22T18:37:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,card,mobile
+105,2026-04-24T08:11:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,3,USB-C Hub,Electronics,1,49.50,15,42.07,pending,paypal,mobile
+106,2026-03-24T21:06:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,refunded,card,web
+107,2026-08-30T12:52:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,15,59.49,refunded,bank_transfer,web
+108,2026-01-30T12:55:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,pending,card,mobile
+109,2026-04-03T19:48:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,7,Desk Lamp,Home Office,1,39.99,10,35.99,completed,paypal,web
+110,2026-04-23T22:31:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,card,mobile
+111,2026-01-04T17:26:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,12,Bluetooth Speaker,Electronics,1,69.99,10,62.99,completed,card,web
+112,2026-05-08T22:18:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,pending,card,mobile
+113,2026-02-07T12:12:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,8,Ergonomic Chair,Home Office,1,349.00,10,314.10,pending,bank_transfer,web
+114,2026-03-29T16:17:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,5,Laptop Stand,Accessories,2,59.90,5,113.81,refunded,card,web
+115,2026-05-06T04:28:00Z,10,George Brown,george.brown@example.com,United States,10,Water Bottle,Lifestyle,1,22.00,15,18.70,pending,paypal,web
+116,2026-04-27T10:55:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,9,Notebook,Stationery,2,8.50,5,16.15,completed,card,mobile
+117,2026-01-12T10:47:00Z,13,Alex Martin,alex.martin@example.com,France,4,27-inch Monitor,Electronics,2,299.00,5,568.10,completed,paypal,mobile
+118,2026-05-09T18:21:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,8,Ergonomic Chair,Home Office,3,349.00,0,1047.00,refunded,card,mobile
+119,2026-07-04T04:26:00Z,4,John Smith,john.smith@example.com,United Kingdom,9,Notebook,Stationery,3,8.50,0,25.50,refunded,card,web
+120,2026-04-12T20:05:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,5,Laptop Stand,Accessories,1,59.90,15,50.91,refunded,card,mobile
+121,2026-08-12T17:02:00Z,13,Alex Martin,alex.martin@example.com,France,6,Webcam,Electronics,1,79.00,5,75.05,pending,card,web
+122,2026-01-26T20:45:00Z,10,George Brown,george.brown@example.com,United States,4,27-inch Monitor,Electronics,2,299.00,5,568.10,refunded,card,mobile
+123,2026-01-12T10:50:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,card,web
+124,2026-04-16T18:43:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,7,Desk Lamp,Home Office,1,39.99,10,35.99,refunded,card,web
+125,2026-06-08T21:15:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,2,Mechanical Keyboard,Electronics,1,129.00,5,122.55,completed,bank_transfer,web
+126,2026-03-07T21:00:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,8,Ergonomic Chair,Home Office,1,349.00,5,331.55,refunded,paypal,web
+127,2026-05-31T09:40:00Z,18,Clara Dubois,clara.dubois@example.com,France,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,card,mobile
+128,2026-01-28T07:24:00Z,10,George Brown,george.brown@example.com,United States,4,27-inch Monitor,Electronics,4,299.00,5,1136.20,pending,card,mobile
+129,2026-04-12T08:00:00Z,10,George Brown,george.brown@example.com,United States,12,Bluetooth Speaker,Electronics,1,69.99,15,59.49,pending,card,mobile
+130,2026-06-05T11:14:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,5,Laptop Stand,Accessories,2,59.90,0,119.80,cancelled,card,mobile
+131,2026-06-24T04:40:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,11,Backpack,Accessories,2,74.00,15,125.80,completed,card,web
+132,2026-02-03T02:58:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,1,Wireless Headphones,Electronics,1,89.99,15,76.49,completed,card,mobile
+133,2026-08-13T11:33:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,4,27-inch Monitor,Electronics,1,299.00,10,269.10,pending,card,web
+134,2026-07-11T10:51:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,8,Ergonomic Chair,Home Office,3,349.00,0,1047.00,completed,paypal,web
+135,2026-06-22T12:54:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,4,27-inch Monitor,Electronics,2,299.00,15,508.30,refunded,bank_transfer,web
+136,2026-02-01T14:23:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,7,Desk Lamp,Home Office,1,39.99,10,35.99,cancelled,card,mobile
+137,2026-06-22T07:30:00Z,13,Alex Martin,alex.martin@example.com,France,11,Backpack,Accessories,3,74.00,0,222.00,completed,bank_transfer,mobile
+138,2026-06-12T14:58:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,10,Water Bottle,Lifestyle,1,22.00,0,22.00,cancelled,card,mobile
+139,2026-03-19T15:07:00Z,4,John Smith,john.smith@example.com,United Kingdom,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,card,mobile
+140,2026-07-10T22:34:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,7,Desk Lamp,Home Office,1,39.99,15,33.99,completed,bank_transfer,web
+141,2026-06-07T13:17:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,11,Backpack,Accessories,1,74.00,5,70.30,completed,card,web
+142,2026-01-26T21:23:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,8,Ergonomic Chair,Home Office,3,349.00,0,1047.00,pending,card,web
+143,2026-08-31T14:05:00Z,13,Alex Martin,alex.martin@example.com,France,5,Laptop Stand,Accessories,1,59.90,0,59.90,cancelled,card,mobile
+144,2026-02-02T18:13:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,1,Wireless Headphones,Electronics,2,89.99,0,179.98,completed,bank_transfer,web
+145,2026-03-26T04:50:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,4,27-inch Monitor,Electronics,2,299.00,0,598.00,pending,card,web
+146,2026-01-29T21:55:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,card,web
+147,2026-02-14T08:03:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,4,27-inch Monitor,Electronics,1,299.00,0,299.00,completed,paypal,mobile
+148,2026-07-19T11:32:00Z,4,John Smith,john.smith@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,5,66.49,pending,card,mobile
+149,2026-07-06T21:33:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,4,27-inch Monitor,Electronics,3,299.00,0,897.00,completed,paypal,web
+150,2026-06-25T03:31:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,8,Ergonomic Chair,Home Office,2,349.00,5,663.10,cancelled,paypal,web
+151,2026-02-02T08:39:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,6,Webcam,Electronics,1,79.00,0,79.00,cancelled,bank_transfer,mobile
+152,2026-03-17T14:32:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,7,Desk Lamp,Home Office,4,39.99,10,143.96,pending,paypal,web
+153,2026-07-04T06:27:00Z,4,John Smith,john.smith@example.com,United Kingdom,11,Backpack,Accessories,2,74.00,10,133.20,completed,card,mobile
+154,2026-01-25T10:27:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,completed,card,web
+155,2026-01-24T02:05:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,11,Backpack,Accessories,3,74.00,0,222.00,completed,card,web
+156,2026-05-24T10:42:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,9,Notebook,Stationery,1,8.50,10,7.65,completed,paypal,web
+157,2026-06-03T09:22:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,bank_transfer,mobile
+158,2026-08-05T03:22:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,3,USB-C Hub,Electronics,2,49.50,0,99.00,refunded,bank_transfer,web
+159,2026-08-05T17:49:00Z,4,John Smith,john.smith@example.com,United Kingdom,5,Laptop Stand,Accessories,1,59.90,5,56.90,refunded,bank_transfer,mobile
+160,2026-08-01T22:17:00Z,18,Clara Dubois,clara.dubois@example.com,France,1,Wireless Headphones,Electronics,1,89.99,15,76.49,completed,card,web
+161,2026-08-11T04:36:00Z,10,George Brown,george.brown@example.com,United States,6,Webcam,Electronics,1,79.00,0,79.00,cancelled,paypal,web
+162,2026-01-24T23:33:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,paypal,mobile
+163,2026-07-04T10:49:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,6,Webcam,Electronics,1,79.00,0,79.00,pending,bank_transfer,web
+164,2026-01-13T21:05:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,3,USB-C Hub,Electronics,1,49.50,10,44.55,completed,paypal,mobile
+165,2026-02-25T16:07:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,10,Water Bottle,Lifestyle,1,22.00,0,22.00,completed,paypal,web
+166,2026-05-15T21:19:00Z,10,George Brown,george.brown@example.com,United States,11,Backpack,Accessories,2,74.00,5,140.60,completed,card,mobile
+167,2026-08-31T06:49:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,1,Wireless Headphones,Electronics,1,89.99,0,89.99,completed,card,web
+168,2026-04-21T05:08:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,2,Mechanical Keyboard,Electronics,1,129.00,15,109.65,completed,bank_transfer,web
+169,2026-01-19T12:55:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,9,Notebook,Stationery,2,8.50,0,17.00,cancelled,card,mobile
+170,2026-05-28T13:36:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,8,Ergonomic Chair,Home Office,3,349.00,0,1047.00,completed,paypal,web
+171,2026-02-13T19:29:00Z,4,John Smith,john.smith@example.com,United Kingdom,7,Desk Lamp,Home Office,1,39.99,0,39.99,refunded,card,web
+172,2026-04-13T16:05:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,1,129.00,10,116.10,completed,card,web
+173,2026-05-11T20:07:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,6,Webcam,Electronics,2,79.00,0,158.00,pending,bank_transfer,web
+174,2026-07-28T04:15:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,6,Webcam,Electronics,2,79.00,15,134.30,completed,card,web
+175,2026-01-20T05:49:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,3,USB-C Hub,Electronics,1,49.50,15,42.07,cancelled,paypal,mobile
+176,2026-06-14T20:39:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,10,Water Bottle,Lifestyle,1,22.00,10,19.80,completed,card,web
+177,2026-03-19T08:37:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,2,Mechanical Keyboard,Electronics,1,129.00,15,109.65,completed,card,mobile
+178,2026-01-15T11:53:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,card,web
+179,2026-05-29T17:50:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,10,Water Bottle,Lifestyle,1,22.00,5,20.90,cancelled,card,mobile
+180,2026-05-02T16:09:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,11,Backpack,Accessories,1,74.00,10,66.60,completed,paypal,web
+181,2026-02-14T01:15:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,12,Bluetooth Speaker,Electronics,1,69.99,15,59.49,cancelled,paypal,mobile
+182,2026-04-06T09:24:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,9,Notebook,Stationery,1,8.50,0,8.50,completed,card,mobile
+183,2026-03-26T03:35:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,11,Backpack,Accessories,1,74.00,0,74.00,cancelled,paypal,web
+184,2026-08-12T04:21:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,12,Bluetooth Speaker,Electronics,2,69.99,10,125.98,completed,bank_transfer,web
+185,2026-06-19T12:08:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,5,Laptop Stand,Accessories,3,59.90,15,152.74,pending,card,web
+186,2026-07-28T04:42:00Z,18,Clara Dubois,clara.dubois@example.com,France,7,Desk Lamp,Home Office,1,39.99,0,39.99,cancelled,bank_transfer,web
+187,2026-03-21T05:13:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,9,Notebook,Stationery,1,8.50,0,8.50,completed,paypal,web
+188,2026-08-05T03:32:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,3,USB-C Hub,Electronics,1,49.50,0,49.50,refunded,bank_transfer,mobile
+189,2026-02-03T19:24:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,11,Backpack,Accessories,1,74.00,10,66.60,completed,card,web
+190,2026-04-16T11:43:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,3,USB-C Hub,Electronics,2,49.50,0,99.00,cancelled,card,mobile
+191,2026-03-01T17:15:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,5,Laptop Stand,Accessories,2,59.90,5,113.81,completed,paypal,web
+192,2026-04-29T09:49:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,11,Backpack,Accessories,3,74.00,5,210.90,completed,bank_transfer,mobile
+193,2026-02-05T08:03:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,3,USB-C Hub,Electronics,2,49.50,10,89.10,cancelled,paypal,web
+194,2026-08-06T03:18:00Z,18,Clara Dubois,clara.dubois@example.com,France,2,Mechanical Keyboard,Electronics,2,129.00,10,232.20,completed,card,web
+195,2026-01-24T07:52:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,9,Notebook,Stationery,1,8.50,5,8.07,completed,card,web
+196,2026-03-02T12:05:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,1,Wireless Headphones,Electronics,1,89.99,0,89.99,completed,card,web
+197,2026-03-27T04:08:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,2,Mechanical Keyboard,Electronics,2,129.00,15,219.30,completed,card,mobile
+198,2026-01-02T02:01:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,12,Bluetooth Speaker,Electronics,1,69.99,10,62.99,completed,card,web
+199,2026-01-29T09:15:00Z,18,Clara Dubois,clara.dubois@example.com,France,12,Bluetooth Speaker,Electronics,1,69.99,5,66.49,completed,card,web
+200,2026-04-28T02:07:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,7,Desk Lamp,Home Office,1,39.99,10,35.99,refunded,paypal,mobile
+201,2026-03-03T22:09:00Z,18,Clara Dubois,clara.dubois@example.com,France,1,Wireless Headphones,Electronics,1,89.99,10,80.99,completed,paypal,web
+202,2026-02-17T21:42:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,6,Webcam,Electronics,1,79.00,5,75.05,completed,bank_transfer,web
+203,2026-05-22T00:24:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,9,Notebook,Stationery,1,8.50,10,7.65,refunded,paypal,web
+204,2026-04-02T02:22:00Z,13,Alex Martin,alex.martin@example.com,France,6,Webcam,Electronics,1,79.00,0,79.00,completed,card,mobile
+205,2026-03-28T20:11:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,3,USB-C Hub,Electronics,1,49.50,10,44.55,refunded,paypal,mobile
+206,2026-01-10T09:12:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,3,USB-C Hub,Electronics,1,49.50,5,47.02,completed,card,web
+207,2026-05-02T08:02:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,5,Laptop Stand,Accessories,1,59.90,10,53.91,refunded,card,web
+208,2026-03-11T03:51:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,1,Wireless Headphones,Electronics,2,89.99,0,179.98,completed,paypal,mobile
+209,2026-05-08T22:31:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,bank_transfer,web
+210,2026-06-04T05:34:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,12,Bluetooth Speaker,Electronics,1,69.99,5,66.49,completed,card,web
+211,2026-04-25T19:45:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,6,Webcam,Electronics,2,79.00,0,158.00,completed,card,mobile
+212,2026-06-07T13:17:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,cancelled,card,web
+213,2026-06-23T05:01:00Z,13,Alex Martin,alex.martin@example.com,France,6,Webcam,Electronics,1,79.00,15,67.15,completed,bank_transfer,mobile
+214,2026-04-04T11:24:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,3,USB-C Hub,Electronics,1,49.50,15,42.07,pending,card,mobile
+215,2026-04-06T14:48:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,11,Backpack,Accessories,1,74.00,0,74.00,completed,bank_transfer,web
+216,2026-03-13T07:07:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,6,Webcam,Electronics,1,79.00,15,67.15,completed,card,mobile
+217,2026-03-09T08:45:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,7,Desk Lamp,Home Office,3,39.99,0,119.97,completed,card,mobile
+218,2026-02-21T03:08:00Z,10,George Brown,george.brown@example.com,United States,12,Bluetooth Speaker,Electronics,3,69.99,5,199.47,refunded,card,mobile
+219,2026-07-27T21:54:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,card,web
+220,2026-08-06T05:45:00Z,18,Clara Dubois,clara.dubois@example.com,France,9,Notebook,Stationery,1,8.50,0,8.50,cancelled,card,web
+221,2026-07-22T04:15:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,4,27-inch Monitor,Electronics,1,299.00,0,299.00,refunded,paypal,web
+222,2026-07-25T17:08:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,9,Notebook,Stationery,1,8.50,5,8.07,pending,card,web
+223,2026-05-03T16:26:00Z,10,George Brown,george.brown@example.com,United States,7,Desk Lamp,Home Office,4,39.99,15,135.97,refunded,paypal,mobile
+224,2026-01-19T14:29:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,3,USB-C Hub,Electronics,3,49.50,15,126.22,cancelled,bank_transfer,web
+225,2026-07-16T04:27:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,9,Notebook,Stationery,1,8.50,0,8.50,pending,card,web
+226,2026-03-24T22:14:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,bank_transfer,web
+227,2026-03-12T04:40:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,5,Laptop Stand,Accessories,1,59.90,10,53.91,completed,bank_transfer,mobile
+228,2026-08-30T18:09:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,9,Notebook,Stationery,1,8.50,10,7.65,completed,bank_transfer,mobile
+229,2026-01-21T01:41:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,10,Water Bottle,Lifestyle,1,22.00,0,22.00,refunded,bank_transfer,web
+230,2026-01-08T15:56:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,10,Water Bottle,Lifestyle,1,22.00,15,18.70,cancelled,bank_transfer,web
+231,2026-04-14T09:29:00Z,10,George Brown,george.brown@example.com,United States,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,completed,card,web
+232,2026-03-29T19:09:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,web
+233,2026-05-24T03:20:00Z,13,Alex Martin,alex.martin@example.com,France,3,USB-C Hub,Electronics,2,49.50,10,89.10,completed,paypal,web
+234,2026-01-13T09:24:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,refunded,bank_transfer,mobile
+235,2026-07-04T10:12:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,3,USB-C Hub,Electronics,2,49.50,10,89.10,refunded,card,mobile
+236,2026-05-08T00:05:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,completed,bank_transfer,mobile
+237,2026-01-13T09:31:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,4,27-inch Monitor,Electronics,1,299.00,0,299.00,pending,paypal,web
+238,2026-02-04T08:46:00Z,18,Clara Dubois,clara.dubois@example.com,France,1,Wireless Headphones,Electronics,2,89.99,5,170.98,completed,paypal,web
+239,2026-02-19T11:35:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,7,Desk Lamp,Home Office,1,39.99,10,35.99,completed,card,mobile
+240,2026-07-31T19:43:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,8,Ergonomic Chair,Home Office,2,349.00,0,698.00,pending,card,web
+241,2026-05-23T11:48:00Z,4,John Smith,john.smith@example.com,United Kingdom,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,mobile
+242,2026-01-10T04:45:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,paypal,mobile
+243,2026-02-05T10:59:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,3,USB-C Hub,Electronics,1,49.50,10,44.55,pending,card,web
+244,2026-06-01T10:32:00Z,13,Alex Martin,alex.martin@example.com,France,10,Water Bottle,Lifestyle,2,22.00,0,44.00,refunded,bank_transfer,mobile
+245,2026-07-28T00:23:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,12,Bluetooth Speaker,Electronics,1,69.99,5,66.49,completed,card,mobile
+246,2026-08-12T22:40:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,5,Laptop Stand,Accessories,2,59.90,15,101.83,completed,bank_transfer,mobile
+247,2026-05-28T07:46:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,11,Backpack,Accessories,2,74.00,10,133.20,completed,bank_transfer,mobile
+248,2026-07-18T12:09:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,9,Notebook,Stationery,1,8.50,10,7.65,refunded,card,web
+249,2026-04-23T10:26:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,paypal,web
+250,2026-08-12T23:46:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,9,Notebook,Stationery,2,8.50,5,16.15,completed,card,mobile
+251,2026-05-03T16:24:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,9,Notebook,Stationery,1,8.50,15,7.22,completed,card,mobile
+252,2026-07-17T23:43:00Z,18,Clara Dubois,clara.dubois@example.com,France,6,Webcam,Electronics,1,79.00,15,67.15,cancelled,card,mobile
+253,2026-05-23T09:14:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,4,27-inch Monitor,Electronics,3,299.00,0,897.00,completed,card,web
+254,2026-08-28T23:17:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,6,Webcam,Electronics,1,79.00,10,71.10,completed,card,mobile
+255,2026-07-29T11:49:00Z,18,Clara Dubois,clara.dubois@example.com,France,7,Desk Lamp,Home Office,2,39.99,5,75.98,refunded,card,web
+256,2026-03-30T14:41:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,5,Laptop Stand,Accessories,3,59.90,0,179.70,completed,paypal,web
+257,2026-06-28T08:08:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,9,Notebook,Stationery,1,8.50,10,7.65,completed,bank_transfer,mobile
+258,2026-02-27T20:14:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,4,27-inch Monitor,Electronics,1,299.00,10,269.10,completed,card,mobile
+259,2026-07-17T04:00:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,12,Bluetooth Speaker,Electronics,1,69.99,15,59.49,pending,card,mobile
+260,2026-03-24T09:41:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,8,Ergonomic Chair,Home Office,2,349.00,0,698.00,completed,card,mobile
+261,2026-08-22T05:26:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,9,Notebook,Stationery,2,8.50,0,17.00,refunded,card,web
+262,2026-08-12T09:56:00Z,13,Alex Martin,alex.martin@example.com,France,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,completed,card,web
+263,2026-03-14T14:41:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,10,Water Bottle,Lifestyle,1,22.00,0,22.00,pending,bank_transfer,mobile
+264,2026-07-27T03:21:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,9,Notebook,Stationery,1,8.50,0,8.50,completed,paypal,web
+265,2026-05-26T21:48:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,1,Wireless Headphones,Electronics,2,89.99,0,179.98,completed,card,mobile
+266,2026-04-13T21:06:00Z,13,Alex Martin,alex.martin@example.com,France,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,mobile
+267,2026-03-02T14:48:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,4,27-inch Monitor,Electronics,1,299.00,5,284.05,completed,card,web
+268,2026-06-17T11:44:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,card,web
+269,2026-05-09T22:49:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,5,Laptop Stand,Accessories,1,59.90,15,50.91,completed,card,web
+270,2026-05-03T04:29:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,10,Water Bottle,Lifestyle,1,22.00,0,22.00,cancelled,bank_transfer,web
+271,2026-07-13T17:51:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,5,66.49,cancelled,card,web
+272,2026-06-30T11:04:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,2,Mechanical Keyboard,Electronics,1,129.00,10,116.10,pending,card,web
+273,2026-02-08T05:20:00Z,18,Clara Dubois,clara.dubois@example.com,France,9,Notebook,Stationery,1,8.50,10,7.65,refunded,bank_transfer,mobile
+274,2026-05-06T02:57:00Z,4,John Smith,john.smith@example.com,United Kingdom,11,Backpack,Accessories,1,74.00,10,66.60,pending,paypal,web
+275,2026-05-25T01:35:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,3,USB-C Hub,Electronics,1,49.50,5,47.02,completed,card,web
+276,2026-02-25T18:04:00Z,13,Alex Martin,alex.martin@example.com,France,5,Laptop Stand,Accessories,2,59.90,15,101.83,completed,paypal,web
+277,2026-08-28T15:02:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,9,Notebook,Stationery,4,8.50,0,34.00,completed,paypal,web
+278,2026-04-18T11:57:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,11,Backpack,Accessories,3,74.00,15,188.70,completed,paypal,mobile
+279,2026-08-12T17:08:00Z,13,Alex Martin,alex.martin@example.com,France,2,Mechanical Keyboard,Electronics,2,129.00,15,219.30,cancelled,card,web
+280,2026-07-06T07:53:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,9,Notebook,Stationery,1,8.50,0,8.50,completed,card,web
+281,2026-05-17T12:52:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,11,Backpack,Accessories,2,74.00,5,140.60,completed,card,mobile
+282,2026-07-15T03:02:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,3,USB-C Hub,Electronics,1,49.50,15,42.07,refunded,paypal,mobile
+283,2026-06-02T01:28:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,4,27-inch Monitor,Electronics,1,299.00,0,299.00,pending,card,web
+284,2026-02-25T01:08:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,7,Desk Lamp,Home Office,1,39.99,10,35.99,pending,card,web
+285,2026-07-29T10:15:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,6,Webcam,Electronics,1,79.00,15,67.15,completed,card,mobile
+286,2026-05-23T18:56:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,7,Desk Lamp,Home Office,1,39.99,0,39.99,cancelled,card,mobile
+287,2026-08-30T20:42:00Z,18,Clara Dubois,clara.dubois@example.com,France,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,completed,bank_transfer,web
+288,2026-02-17T17:30:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,7,Desk Lamp,Home Office,1,39.99,5,37.99,completed,card,web
+289,2026-04-16T13:35:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,8,Ergonomic Chair,Home Office,3,349.00,10,942.30,pending,card,mobile
+290,2026-01-21T14:54:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,5,Laptop Stand,Accessories,1,59.90,15,50.91,completed,card,mobile
+291,2026-06-04T19:02:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,1,Wireless Headphones,Electronics,1,89.99,15,76.49,refunded,card,web
+292,2026-05-03T06:55:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,12,Bluetooth Speaker,Electronics,2,69.99,0,139.98,completed,card,web
+293,2026-07-11T15:58:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,4,27-inch Monitor,Electronics,3,299.00,0,897.00,completed,bank_transfer,web
+294,2026-04-08T14:34:00Z,13,Alex Martin,alex.martin@example.com,France,4,27-inch Monitor,Electronics,1,299.00,0,299.00,cancelled,card,web
+295,2026-04-30T03:51:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,6,Webcam,Electronics,1,79.00,5,75.05,cancelled,paypal,web
+296,2026-05-25T07:47:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,6,Webcam,Electronics,1,79.00,0,79.00,completed,card,web
+297,2026-03-17T04:12:00Z,18,Clara Dubois,clara.dubois@example.com,France,10,Water Bottle,Lifestyle,1,22.00,5,20.90,completed,card,mobile
+298,2026-08-30T21:21:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,4,27-inch Monitor,Electronics,1,299.00,15,254.15,completed,paypal,mobile
+299,2026-02-13T04:46:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,3,USB-C Hub,Electronics,2,49.50,0,99.00,pending,paypal,web
+300,2026-01-09T02:52:00Z,18,Clara Dubois,clara.dubois@example.com,France,11,Backpack,Accessories,3,74.00,10,199.80,cancelled,card,web
+301,2026-01-18T22:09:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,3,USB-C Hub,Electronics,2,49.50,0,99.00,completed,card,mobile
+302,2026-06-20T19:58:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,6,Webcam,Electronics,1,79.00,15,67.15,completed,paypal,web
+303,2026-01-05T16:46:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,9,Notebook,Stationery,1,8.50,0,8.50,completed,bank_transfer,web
+304,2026-04-21T05:06:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,9,Notebook,Stationery,2,8.50,15,14.45,completed,bank_transfer,web
+305,2026-07-28T11:17:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,4,27-inch Monitor,Electronics,1,299.00,0,299.00,refunded,paypal,web
+306,2026-06-28T07:19:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,7,Desk Lamp,Home Office,1,39.99,0,39.99,cancelled,card,web
+307,2026-05-02T01:40:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,7,Desk Lamp,Home Office,1,39.99,10,35.99,completed,card,web
+308,2026-05-25T03:57:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,7,Desk Lamp,Home Office,1,39.99,0,39.99,pending,card,web
+309,2026-03-11T01:59:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,2,69.99,5,132.98,completed,card,mobile
+310,2026-01-05T06:37:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,11,Backpack,Accessories,1,74.00,0,74.00,completed,paypal,web
+311,2026-08-02T12:43:00Z,10,George Brown,george.brown@example.com,United States,3,USB-C Hub,Electronics,1,49.50,10,44.55,pending,card,mobile
+312,2026-07-10T11:03:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,12,Bluetooth Speaker,Electronics,2,69.99,10,125.98,completed,paypal,web
+313,2026-06-02T12:49:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,6,Webcam,Electronics,1,79.00,10,71.10,completed,card,web
+314,2026-08-29T12:27:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,8,Ergonomic Chair,Home Office,1,349.00,10,314.10,completed,bank_transfer,mobile
+315,2026-07-02T02:05:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,10,Water Bottle,Lifestyle,1,22.00,0,22.00,completed,card,mobile
+316,2026-01-28T02:00:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,paypal,web
+317,2026-04-21T14:35:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,pending,bank_transfer,mobile
+318,2026-01-24T19:38:00Z,4,John Smith,john.smith@example.com,United Kingdom,1,Wireless Headphones,Electronics,1,89.99,10,80.99,refunded,card,mobile
+319,2026-07-05T17:57:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,bank_transfer,mobile
+320,2026-03-10T09:17:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,11,Backpack,Accessories,1,74.00,0,74.00,completed,card,web
+321,2026-05-04T02:23:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,mobile
+322,2026-02-04T09:00:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,10,Water Bottle,Lifestyle,1,22.00,0,22.00,completed,card,mobile
+323,2026-07-28T20:38:00Z,13,Alex Martin,alex.martin@example.com,France,6,Webcam,Electronics,1,79.00,5,75.05,completed,card,web
+324,2026-02-15T12:20:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,paypal,mobile
+325,2026-04-04T03:59:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,6,Webcam,Electronics,1,79.00,5,75.05,pending,card,mobile
+326,2026-01-07T23:29:00Z,18,Clara Dubois,clara.dubois@example.com,France,3,USB-C Hub,Electronics,2,49.50,10,89.10,cancelled,card,mobile
+327,2026-06-22T15:08:00Z,10,George Brown,george.brown@example.com,United States,12,Bluetooth Speaker,Electronics,1,69.99,5,66.49,cancelled,card,web
+328,2026-07-22T12:04:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,11,Backpack,Accessories,1,74.00,5,70.30,completed,bank_transfer,mobile
+329,2026-04-18T17:02:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,7,Desk Lamp,Home Office,1,39.99,15,33.99,refunded,card,mobile
+330,2026-07-16T07:42:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,11,Backpack,Accessories,3,74.00,0,222.00,cancelled,card,web
+331,2026-06-23T20:25:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,1,Wireless Headphones,Electronics,1,89.99,15,76.49,refunded,card,mobile
+332,2026-05-11T23:33:00Z,4,John Smith,john.smith@example.com,United Kingdom,1,Wireless Headphones,Electronics,1,89.99,0,89.99,pending,bank_transfer,mobile
+333,2026-07-17T21:37:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,8,Ergonomic Chair,Home Office,1,349.00,5,331.55,cancelled,bank_transfer,web
+334,2026-04-17T02:07:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,1,Wireless Headphones,Electronics,1,89.99,0,89.99,refunded,card,web
+335,2026-05-14T15:22:00Z,10,George Brown,george.brown@example.com,United States,6,Webcam,Electronics,1,79.00,0,79.00,completed,card,mobile
+336,2026-07-27T22:07:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,6,Webcam,Electronics,1,79.00,0,79.00,completed,card,web
+337,2026-05-22T05:21:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,pending,paypal,mobile
+338,2026-06-13T21:27:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,mobile
+339,2026-01-02T22:13:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,8,Ergonomic Chair,Home Office,1,349.00,5,331.55,completed,card,web
+340,2026-02-17T11:20:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,2,Mechanical Keyboard,Electronics,2,129.00,10,232.20,completed,paypal,web
+341,2026-06-13T10:38:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,11,Backpack,Accessories,2,74.00,10,133.20,completed,bank_transfer,mobile
+342,2026-06-08T05:52:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,2,Mechanical Keyboard,Electronics,1,129.00,5,122.55,cancelled,card,mobile
+343,2026-01-31T07:19:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,2,Mechanical Keyboard,Electronics,2,129.00,0,258.00,completed,card,web
+344,2026-02-05T18:24:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,9,Notebook,Stationery,1,8.50,10,7.65,completed,card,mobile
+345,2026-05-23T05:31:00Z,18,Clara Dubois,clara.dubois@example.com,France,12,Bluetooth Speaker,Electronics,3,69.99,0,209.97,completed,card,web
+346,2026-01-03T15:08:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,completed,paypal,mobile
+347,2026-05-06T13:45:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,11,Backpack,Accessories,1,74.00,15,62.90,refunded,paypal,mobile
+348,2026-03-16T01:17:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,completed,bank_transfer,web
+349,2026-05-21T16:07:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,8,Ergonomic Chair,Home Office,1,349.00,5,331.55,pending,card,web
+350,2026-07-14T23:28:00Z,18,Clara Dubois,clara.dubois@example.com,France,6,Webcam,Electronics,1,79.00,0,79.00,pending,card,mobile
+351,2026-03-18T01:28:00Z,4,John Smith,john.smith@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,2,69.99,0,139.98,completed,card,web
+352,2026-02-23T23:37:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,2,Mechanical Keyboard,Electronics,2,129.00,0,258.00,cancelled,card,mobile
+353,2026-07-28T06:51:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,bank_transfer,web
+354,2026-03-24T22:18:00Z,18,Clara Dubois,clara.dubois@example.com,France,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,bank_transfer,web
+355,2026-07-12T13:58:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,11,Backpack,Accessories,2,74.00,0,148.00,completed,card,web
+356,2026-08-01T07:48:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,4,27-inch Monitor,Electronics,1,299.00,0,299.00,refunded,paypal,mobile
+357,2026-04-17T12:28:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,10,Water Bottle,Lifestyle,1,22.00,15,18.70,completed,card,mobile
+358,2026-04-27T15:20:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,pending,card,web
+359,2026-08-06T02:50:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,11,Backpack,Accessories,2,74.00,0,148.00,pending,paypal,web
+360,2026-08-01T09:21:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,4,27-inch Monitor,Electronics,1,299.00,0,299.00,pending,bank_transfer,web
+361,2026-07-15T01:02:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,8,Ergonomic Chair,Home Office,2,349.00,15,593.30,completed,paypal,web
+362,2026-04-20T06:44:00Z,4,John Smith,john.smith@example.com,United Kingdom,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,card,web
+363,2026-01-22T11:42:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,2,Mechanical Keyboard,Electronics,2,129.00,0,258.00,cancelled,card,web
+364,2026-07-13T07:27:00Z,13,Alex Martin,alex.martin@example.com,France,11,Backpack,Accessories,1,74.00,15,62.90,cancelled,card,web
+365,2026-06-01T07:33:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,4,27-inch Monitor,Electronics,1,299.00,0,299.00,cancelled,paypal,web
+366,2026-08-09T13:44:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,paypal,web
+367,2026-01-27T10:23:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,mobile
+368,2026-01-18T16:36:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,11,Backpack,Accessories,4,74.00,0,296.00,completed,bank_transfer,web
+369,2026-07-11T04:58:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,6,Webcam,Electronics,2,79.00,15,134.30,completed,bank_transfer,mobile
+370,2026-07-12T03:37:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,2,129.00,0,258.00,cancelled,paypal,web
+371,2026-03-12T20:05:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,6,Webcam,Electronics,2,79.00,0,158.00,completed,bank_transfer,mobile
+372,2026-01-07T21:56:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,12,Bluetooth Speaker,Electronics,1,69.99,15,59.49,completed,card,mobile
+373,2026-03-17T20:03:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,9,Notebook,Stationery,1,8.50,5,8.07,refunded,card,mobile
+374,2026-06-02T02:33:00Z,13,Alex Martin,alex.martin@example.com,France,2,Mechanical Keyboard,Electronics,1,129.00,15,109.65,completed,card,web
+375,2026-04-18T11:34:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,7,Desk Lamp,Home Office,2,39.99,10,71.98,cancelled,card,mobile
+376,2026-03-09T06:02:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,1,Wireless Headphones,Electronics,1,89.99,0,89.99,completed,paypal,mobile
+377,2026-04-19T22:25:00Z,10,George Brown,george.brown@example.com,United States,11,Backpack,Accessories,2,74.00,5,140.60,completed,bank_transfer,mobile
+378,2026-01-21T16:58:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,card,mobile
+379,2026-06-24T20:04:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,7,Desk Lamp,Home Office,1,39.99,15,33.99,completed,paypal,web
+380,2026-01-30T14:39:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,4,27-inch Monitor,Electronics,1,299.00,5,284.05,pending,card,web
+381,2026-06-29T00:10:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,completed,card,mobile
+382,2026-02-02T23:49:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,refunded,card,web
+383,2026-05-15T02:16:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,6,Webcam,Electronics,2,79.00,0,158.00,cancelled,bank_transfer,web
+384,2026-05-08T18:10:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,completed,card,web
+385,2026-02-28T23:32:00Z,4,John Smith,john.smith@example.com,United Kingdom,10,Water Bottle,Lifestyle,2,22.00,0,44.00,completed,card,web
+386,2026-08-24T04:11:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,1,Wireless Headphones,Electronics,1,89.99,5,85.49,refunded,card,mobile
+387,2026-08-23T23:20:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,4,27-inch Monitor,Electronics,1,299.00,5,284.05,completed,card,mobile
+388,2026-02-15T07:51:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,pending,card,mobile
+389,2026-03-25T02:35:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,8,Ergonomic Chair,Home Office,2,349.00,0,698.00,completed,card,web
+390,2026-07-09T19:15:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,card,mobile
+391,2026-07-14T07:09:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,4,27-inch Monitor,Electronics,2,299.00,10,538.20,completed,paypal,web
+392,2026-08-13T00:21:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,9,Notebook,Stationery,1,8.50,15,7.22,completed,paypal,web
+393,2026-04-18T15:03:00Z,4,John Smith,john.smith@example.com,United Kingdom,4,27-inch Monitor,Electronics,1,299.00,0,299.00,completed,card,web
+394,2026-04-16T22:57:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,4,27-inch Monitor,Electronics,2,299.00,10,538.20,completed,paypal,web
+395,2026-07-29T12:04:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,2,Mechanical Keyboard,Electronics,1,129.00,15,109.65,pending,bank_transfer,web
+396,2026-03-16T08:54:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,11,Backpack,Accessories,3,74.00,0,222.00,completed,paypal,web
+397,2026-08-30T06:08:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,refunded,bank_transfer,web
+398,2026-03-22T13:07:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,2,Mechanical Keyboard,Electronics,1,129.00,5,122.55,pending,card,web
+399,2026-01-24T05:51:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,5,Laptop Stand,Accessories,1,59.90,0,59.90,cancelled,card,mobile
+400,2026-02-07T02:45:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,4,27-inch Monitor,Electronics,2,299.00,0,598.00,completed,card,mobile
+401,2026-07-29T05:01:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,1,Wireless Headphones,Electronics,2,89.99,0,179.98,completed,paypal,mobile
+402,2026-07-25T04:07:00Z,18,Clara Dubois,clara.dubois@example.com,France,4,27-inch Monitor,Electronics,1,299.00,0,299.00,completed,card,web
+403,2026-06-25T20:41:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,4,27-inch Monitor,Electronics,2,299.00,0,598.00,completed,bank_transfer,mobile
+404,2026-02-20T20:28:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,refunded,card,web
+405,2026-01-13T05:59:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,2,Mechanical Keyboard,Electronics,1,129.00,5,122.55,pending,paypal,mobile
+406,2026-02-14T11:13:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,1,Wireless Headphones,Electronics,1,89.99,5,85.49,completed,card,web
+407,2026-06-07T07:41:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,3,USB-C Hub,Electronics,1,49.50,10,44.55,completed,paypal,mobile
+408,2026-04-09T04:26:00Z,18,Clara Dubois,clara.dubois@example.com,France,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,completed,bank_transfer,web
+409,2026-04-02T15:34:00Z,18,Clara Dubois,clara.dubois@example.com,France,1,Wireless Headphones,Electronics,4,89.99,15,305.97,refunded,paypal,web
+410,2026-02-16T00:20:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,9,Notebook,Stationery,1,8.50,0,8.50,pending,card,web
+411,2026-05-16T11:49:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,1,Wireless Headphones,Electronics,2,89.99,5,170.98,pending,card,web
+412,2026-05-17T23:03:00Z,4,John Smith,john.smith@example.com,United Kingdom,4,27-inch Monitor,Electronics,2,299.00,0,598.00,refunded,card,mobile
+413,2026-02-15T07:37:00Z,13,Alex Martin,alex.martin@example.com,France,6,Webcam,Electronics,3,79.00,0,237.00,completed,card,mobile
+414,2026-05-25T04:36:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,12,Bluetooth Speaker,Electronics,2,69.99,10,125.98,completed,paypal,mobile
+415,2026-01-15T07:38:00Z,10,George Brown,george.brown@example.com,United States,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,card,mobile
+416,2026-02-21T04:21:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,1,Wireless Headphones,Electronics,1,89.99,10,80.99,cancelled,card,web
+417,2026-08-23T04:49:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,1,Wireless Headphones,Electronics,1,89.99,15,76.49,completed,bank_transfer,web
+418,2026-04-12T18:06:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,6,Webcam,Electronics,2,79.00,15,134.30,completed,card,web
+419,2026-07-22T20:31:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,3,USB-C Hub,Electronics,2,49.50,5,94.05,cancelled,card,web
+420,2026-07-21T11:14:00Z,18,Clara Dubois,clara.dubois@example.com,France,12,Bluetooth Speaker,Electronics,2,69.99,10,125.98,cancelled,bank_transfer,web
+421,2026-02-02T05:46:00Z,13,Alex Martin,alex.martin@example.com,France,5,Laptop Stand,Accessories,2,59.90,0,119.80,completed,bank_transfer,mobile
+422,2026-08-24T19:14:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,1,Wireless Headphones,Electronics,1,89.99,0,89.99,cancelled,bank_transfer,web
+423,2026-03-02T11:20:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,card,web
+424,2026-06-27T02:22:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,1,Wireless Headphones,Electronics,1,89.99,0,89.99,completed,card,web
+425,2026-02-12T13:31:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,7,Desk Lamp,Home Office,1,39.99,5,37.99,completed,card,mobile
+426,2026-06-16T21:14:00Z,13,Alex Martin,alex.martin@example.com,France,2,Mechanical Keyboard,Electronics,2,129.00,10,232.20,completed,paypal,web
+427,2026-01-27T02:21:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,paypal,web
+428,2026-03-28T19:39:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,9,Notebook,Stationery,3,8.50,0,25.50,completed,card,mobile
+429,2026-01-14T03:21:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,10,Water Bottle,Lifestyle,2,22.00,0,44.00,completed,card,mobile
+430,2026-03-09T21:18:00Z,18,Clara Dubois,clara.dubois@example.com,France,12,Bluetooth Speaker,Electronics,3,69.99,10,188.97,completed,card,web
+431,2026-02-09T01:23:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,7,Desk Lamp,Home Office,1,39.99,5,37.99,completed,paypal,web
+432,2026-02-21T03:01:00Z,10,George Brown,george.brown@example.com,United States,11,Backpack,Accessories,1,74.00,5,70.30,completed,card,web
+433,2026-07-20T12:30:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,8,Ergonomic Chair,Home Office,2,349.00,0,698.00,completed,card,web
+434,2026-04-05T05:28:00Z,18,Clara Dubois,clara.dubois@example.com,France,7,Desk Lamp,Home Office,1,39.99,5,37.99,completed,card,mobile
+435,2026-05-25T01:09:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,5,Laptop Stand,Accessories,1,59.90,0,59.90,refunded,card,web
+436,2026-02-28T17:03:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,9,Notebook,Stationery,1,8.50,10,7.65,refunded,paypal,mobile
+437,2026-05-27T07:30:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,9,Notebook,Stationery,2,8.50,5,16.15,completed,card,mobile
+438,2026-07-24T18:43:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,9,Notebook,Stationery,1,8.50,10,7.65,pending,card,web
+439,2026-02-24T06:08:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,3,USB-C Hub,Electronics,3,49.50,0,148.50,completed,paypal,web
+440,2026-02-07T19:16:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,4,27-inch Monitor,Electronics,4,299.00,15,1016.60,completed,card,web
+441,2026-08-08T08:33:00Z,13,Alex Martin,alex.martin@example.com,France,9,Notebook,Stationery,1,8.50,0,8.50,completed,card,mobile
+442,2026-04-17T04:09:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,9,Notebook,Stationery,2,8.50,0,17.00,pending,bank_transfer,mobile
+443,2026-07-21T09:55:00Z,4,John Smith,john.smith@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,pending,card,mobile
+444,2026-06-05T15:02:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,7,Desk Lamp,Home Office,2,39.99,10,71.98,completed,card,mobile
+445,2026-04-13T01:25:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,10,Water Bottle,Lifestyle,1,22.00,15,18.70,completed,card,web
+446,2026-03-28T09:19:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,5,Laptop Stand,Accessories,2,59.90,0,119.80,completed,paypal,web
+447,2026-04-24T10:17:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,3,USB-C Hub,Electronics,1,49.50,15,42.07,cancelled,paypal,mobile
+448,2026-07-09T15:48:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,4,27-inch Monitor,Electronics,1,299.00,5,284.05,pending,card,web
+449,2026-05-10T12:08:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,3,USB-C Hub,Electronics,1,49.50,15,42.07,refunded,bank_transfer,mobile
+450,2026-08-03T01:15:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,paypal,web
+451,2026-07-30T14:32:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,card,web
+452,2026-02-15T15:37:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,6,Webcam,Electronics,1,79.00,5,75.05,pending,card,web
+453,2026-01-24T09:01:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,5,Laptop Stand,Accessories,2,59.90,15,101.83,completed,card,web
+454,2026-02-27T21:13:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,4,27-inch Monitor,Electronics,2,299.00,15,508.30,completed,paypal,mobile
+455,2026-06-15T05:38:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,11,Backpack,Accessories,1,74.00,0,74.00,refunded,card,web
+456,2026-07-02T22:41:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,10,Water Bottle,Lifestyle,2,22.00,0,44.00,completed,paypal,mobile
+457,2026-03-19T21:33:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,8,Ergonomic Chair,Home Office,1,349.00,5,331.55,refunded,bank_transfer,mobile
+458,2026-08-04T11:35:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,2,Mechanical Keyboard,Electronics,1,129.00,15,109.65,cancelled,bank_transfer,mobile
+459,2026-01-17T10:17:00Z,10,George Brown,george.brown@example.com,United States,5,Laptop Stand,Accessories,2,59.90,5,113.81,cancelled,card,web
+460,2026-03-18T06:09:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,11,Backpack,Accessories,2,74.00,15,125.80,pending,card,web
+461,2026-02-05T23:01:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,7,Desk Lamp,Home Office,2,39.99,15,67.98,cancelled,paypal,web
+462,2026-01-10T18:45:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,7,Desk Lamp,Home Office,1,39.99,15,33.99,pending,card,web
+463,2026-08-21T21:22:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,11,Backpack,Accessories,1,74.00,5,70.30,pending,card,web
+464,2026-02-02T23:16:00Z,18,Clara Dubois,clara.dubois@example.com,France,3,USB-C Hub,Electronics,1,49.50,5,47.02,cancelled,bank_transfer,web
+465,2026-02-27T23:55:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,11,Backpack,Accessories,1,74.00,0,74.00,completed,paypal,web
+466,2026-08-06T03:30:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,5,Laptop Stand,Accessories,1,59.90,5,56.90,completed,bank_transfer,mobile
+467,2026-05-09T03:55:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,cancelled,paypal,mobile
+468,2026-02-05T06:21:00Z,10,George Brown,george.brown@example.com,United States,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,bank_transfer,mobile
+469,2026-07-19T02:31:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,6,Webcam,Electronics,2,79.00,0,158.00,completed,card,web
+470,2026-07-14T05:36:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,1,Wireless Headphones,Electronics,1,89.99,0,89.99,refunded,card,mobile
+471,2026-04-20T12:27:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,3,USB-C Hub,Electronics,1,49.50,15,42.07,completed,paypal,web
+472,2026-01-04T10:48:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,9,Notebook,Stationery,1,8.50,0,8.50,refunded,bank_transfer,web
+473,2026-03-05T07:44:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,11,Backpack,Accessories,1,74.00,15,62.90,completed,card,web
+474,2026-02-12T02:52:00Z,4,John Smith,john.smith@example.com,United Kingdom,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,web
+475,2026-03-28T13:56:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,12,Bluetooth Speaker,Electronics,1,69.99,10,62.99,cancelled,card,web
+476,2026-08-31T12:01:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,6,Webcam,Electronics,2,79.00,0,158.00,completed,card,web
+477,2026-02-13T03:23:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,10,62.99,cancelled,card,mobile
+478,2026-01-13T21:06:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,9,Notebook,Stationery,1,8.50,10,7.65,cancelled,card,web
+479,2026-05-21T08:30:00Z,4,John Smith,john.smith@example.com,United Kingdom,7,Desk Lamp,Home Office,1,39.99,0,39.99,cancelled,card,web
+480,2026-06-19T16:17:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,5,Laptop Stand,Accessories,1,59.90,0,59.90,pending,bank_transfer,web
+481,2026-01-31T09:07:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,1,129.00,10,116.10,refunded,card,mobile
+482,2026-08-01T16:12:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,10,Water Bottle,Lifestyle,1,22.00,0,22.00,completed,paypal,web
+483,2026-06-26T15:21:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,1,Wireless Headphones,Electronics,1,89.99,0,89.99,completed,card,web
+484,2026-05-07T04:05:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,2,Mechanical Keyboard,Electronics,2,129.00,15,219.30,refunded,bank_transfer,web
+485,2026-03-17T08:29:00Z,4,John Smith,john.smith@example.com,United Kingdom,5,Laptop Stand,Accessories,1,59.90,5,56.90,completed,card,web
+486,2026-03-22T13:47:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,5,Laptop Stand,Accessories,1,59.90,15,50.91,completed,card,web
+487,2026-03-26T11:57:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,3,USB-C Hub,Electronics,2,49.50,0,99.00,completed,bank_transfer,web
+488,2026-01-30T12:25:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,6,Webcam,Electronics,2,79.00,0,158.00,completed,card,mobile
+489,2026-01-29T04:44:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,7,Desk Lamp,Home Office,1,39.99,0,39.99,cancelled,card,web
+490,2026-07-25T18:43:00Z,4,John Smith,john.smith@example.com,United Kingdom,7,Desk Lamp,Home Office,3,39.99,5,113.97,completed,card,mobile
+491,2026-08-14T23:57:00Z,13,Alex Martin,alex.martin@example.com,France,6,Webcam,Electronics,1,79.00,15,67.15,completed,paypal,mobile
+492,2026-03-08T20:20:00Z,4,John Smith,john.smith@example.com,United Kingdom,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,bank_transfer,mobile
+493,2026-08-12T10:33:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,4,27-inch Monitor,Electronics,3,299.00,15,762.45,pending,bank_transfer,web
+494,2026-03-30T21:43:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,11,Backpack,Accessories,2,74.00,5,140.60,cancelled,paypal,web
+495,2026-08-28T05:32:00Z,18,Clara Dubois,clara.dubois@example.com,France,10,Water Bottle,Lifestyle,1,22.00,15,18.70,refunded,paypal,mobile
+496,2026-03-03T10:17:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,2,Mechanical Keyboard,Electronics,2,129.00,0,258.00,completed,bank_transfer,web
+497,2026-01-21T14:28:00Z,18,Clara Dubois,clara.dubois@example.com,France,11,Backpack,Accessories,1,74.00,0,74.00,refunded,bank_transfer,mobile
+498,2026-05-08T23:41:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,completed,card,mobile
+499,2026-07-31T02:50:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,1,Wireless Headphones,Electronics,1,89.99,0,89.99,pending,bank_transfer,web
+500,2026-04-27T10:23:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,9,Notebook,Stationery,1,8.50,15,7.22,refunded,card,web
+501,2026-06-03T15:45:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,6,Webcam,Electronics,1,79.00,10,71.10,cancelled,card,mobile
+502,2026-01-01T10:22:00Z,4,John Smith,john.smith@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,2,129.00,0,258.00,refunded,card,mobile
+503,2026-08-18T05:31:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,6,Webcam,Electronics,2,79.00,0,158.00,completed,paypal,web
+504,2026-08-27T12:13:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,10,Water Bottle,Lifestyle,1,22.00,0,22.00,completed,card,web
+505,2026-08-03T21:37:00Z,4,John Smith,john.smith@example.com,United Kingdom,7,Desk Lamp,Home Office,1,39.99,15,33.99,completed,paypal,mobile
+506,2026-01-02T16:47:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,9,Notebook,Stationery,1,8.50,5,8.07,completed,bank_transfer,mobile
+507,2026-06-27T18:11:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,8,Ergonomic Chair,Home Office,3,349.00,0,1047.00,cancelled,card,web
+508,2026-05-10T12:26:00Z,13,Alex Martin,alex.martin@example.com,France,11,Backpack,Accessories,1,74.00,0,74.00,pending,card,web
+509,2026-07-26T04:08:00Z,13,Alex Martin,alex.martin@example.com,France,6,Webcam,Electronics,3,79.00,5,225.15,completed,bank_transfer,mobile
+510,2026-07-02T23:59:00Z,10,George Brown,george.brown@example.com,United States,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,pending,card,web
+511,2026-03-30T21:08:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,10,Water Bottle,Lifestyle,2,22.00,15,37.40,cancelled,card,mobile
+512,2026-01-30T11:35:00Z,18,Clara Dubois,clara.dubois@example.com,France,12,Bluetooth Speaker,Electronics,1,69.99,15,59.49,completed,bank_transfer,mobile
+513,2026-03-15T13:51:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,11,Backpack,Accessories,2,74.00,10,133.20,completed,bank_transfer,web
+514,2026-01-15T06:17:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,7,Desk Lamp,Home Office,1,39.99,15,33.99,refunded,card,web
+515,2026-07-20T09:13:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,3,USB-C Hub,Electronics,2,49.50,15,84.15,refunded,bank_transfer,web
+516,2026-07-09T17:55:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,completed,bank_transfer,mobile
+517,2026-03-15T22:42:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,9,Notebook,Stationery,2,8.50,15,14.45,completed,paypal,mobile
+518,2026-01-14T00:47:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,11,Backpack,Accessories,1,74.00,10,66.60,completed,card,mobile
+519,2026-07-01T20:23:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,4,27-inch Monitor,Electronics,3,299.00,15,762.45,refunded,bank_transfer,mobile
+520,2026-03-17T14:11:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,4,27-inch Monitor,Electronics,2,299.00,0,598.00,cancelled,card,web
+521,2026-01-11T13:17:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,12,Bluetooth Speaker,Electronics,1,69.99,5,66.49,pending,card,web
+522,2026-03-26T14:45:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,10,Water Bottle,Lifestyle,2,22.00,0,44.00,completed,card,web
+523,2026-06-07T21:19:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,10,Water Bottle,Lifestyle,1,22.00,15,18.70,completed,bank_transfer,mobile
+524,2026-05-15T07:11:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,2,Mechanical Keyboard,Electronics,2,129.00,0,258.00,pending,card,mobile
+525,2026-01-24T11:14:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,7,Desk Lamp,Home Office,1,39.99,5,37.99,completed,card,web
+526,2026-05-16T15:35:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,5,Laptop Stand,Accessories,1,59.90,10,53.91,refunded,card,web
+527,2026-06-07T19:15:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,completed,card,mobile
+528,2026-03-14T00:58:00Z,4,John Smith,john.smith@example.com,United Kingdom,7,Desk Lamp,Home Office,1,39.99,15,33.99,pending,card,mobile
+529,2026-08-18T20:12:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,completed,bank_transfer,web
+530,2026-05-17T00:40:00Z,4,John Smith,john.smith@example.com,United Kingdom,3,USB-C Hub,Electronics,3,49.50,10,133.65,completed,card,web
+531,2026-08-13T23:49:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,1,129.00,15,109.65,completed,card,web
+532,2026-01-23T02:03:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,8,Ergonomic Chair,Home Office,2,349.00,0,698.00,completed,card,mobile
+533,2026-04-15T12:28:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,10,Water Bottle,Lifestyle,2,22.00,0,44.00,cancelled,paypal,mobile
+534,2026-05-17T00:41:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,1,Wireless Headphones,Electronics,1,89.99,0,89.99,cancelled,bank_transfer,web
+535,2026-04-02T16:06:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,1,Wireless Headphones,Electronics,2,89.99,0,179.98,completed,card,mobile
+536,2026-04-08T12:52:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,5,Laptop Stand,Accessories,2,59.90,5,113.81,cancelled,card,mobile
+537,2026-04-11T17:18:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,9,Notebook,Stationery,1,8.50,15,7.22,cancelled,card,web
+538,2026-02-06T03:02:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,1,Wireless Headphones,Electronics,1,89.99,10,80.99,completed,bank_transfer,mobile
+539,2026-03-20T06:47:00Z,13,Alex Martin,alex.martin@example.com,France,9,Notebook,Stationery,1,8.50,0,8.50,cancelled,card,web
+540,2026-02-11T05:14:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,11,Backpack,Accessories,2,74.00,0,148.00,pending,card,web
+541,2026-08-07T01:54:00Z,4,John Smith,john.smith@example.com,United Kingdom,3,USB-C Hub,Electronics,2,49.50,10,89.10,refunded,bank_transfer,mobile
+542,2026-03-06T03:12:00Z,18,Clara Dubois,clara.dubois@example.com,France,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,cancelled,bank_transfer,mobile
+543,2026-03-02T03:18:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,6,Webcam,Electronics,1,79.00,15,67.15,pending,card,web
+544,2026-06-18T09:44:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,8,Ergonomic Chair,Home Office,1,349.00,10,314.10,pending,card,mobile
+545,2026-02-13T00:20:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,6,Webcam,Electronics,2,79.00,5,150.10,completed,card,mobile
+546,2026-03-26T15:29:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,6,Webcam,Electronics,1,79.00,15,67.15,completed,card,web
+547,2026-06-05T02:53:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,9,Notebook,Stationery,1,8.50,15,7.22,completed,card,mobile
+548,2026-01-20T23:04:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,5,Laptop Stand,Accessories,2,59.90,15,101.83,completed,bank_transfer,web
+549,2026-02-24T01:35:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,10,Water Bottle,Lifestyle,1,22.00,10,19.80,completed,bank_transfer,mobile
+550,2026-04-11T07:57:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,11,Backpack,Accessories,2,74.00,0,148.00,refunded,bank_transfer,web
+551,2026-04-12T11:32:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,completed,card,mobile
+552,2026-02-15T18:36:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,9,Notebook,Stationery,1,8.50,0,8.50,cancelled,card,mobile
+553,2026-03-01T02:16:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,1,Wireless Headphones,Electronics,1,89.99,5,85.49,completed,card,web
+554,2026-04-10T15:58:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,9,Notebook,Stationery,3,8.50,0,25.50,completed,card,web
+555,2026-06-12T08:53:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,2,Mechanical Keyboard,Electronics,2,129.00,10,232.20,cancelled,card,mobile
+556,2026-04-07T11:37:00Z,18,Clara Dubois,clara.dubois@example.com,France,10,Water Bottle,Lifestyle,1,22.00,15,18.70,cancelled,card,mobile
+557,2026-05-13T12:22:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,7,Desk Lamp,Home Office,3,39.99,0,119.97,refunded,card,mobile
+558,2026-04-23T05:14:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,10,Water Bottle,Lifestyle,1,22.00,0,22.00,completed,bank_transfer,web
+559,2026-06-04T22:52:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,card,mobile
+560,2026-05-03T15:13:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,12,Bluetooth Speaker,Electronics,1,69.99,15,59.49,pending,card,mobile
+561,2026-06-01T05:08:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,4,27-inch Monitor,Electronics,1,299.00,10,269.10,cancelled,bank_transfer,web
+562,2026-08-25T05:33:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,bank_transfer,mobile
+563,2026-08-31T02:13:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,12,Bluetooth Speaker,Electronics,2,69.99,0,139.98,completed,bank_transfer,mobile
+564,2026-06-03T04:50:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,3,USB-C Hub,Electronics,1,49.50,5,47.02,pending,card,mobile
+565,2026-03-29T14:38:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,5,Laptop Stand,Accessories,1,59.90,15,50.91,pending,card,web
+566,2026-02-21T16:55:00Z,13,Alex Martin,alex.martin@example.com,France,7,Desk Lamp,Home Office,1,39.99,0,39.99,pending,paypal,web
+567,2026-06-03T01:56:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,2,Mechanical Keyboard,Electronics,1,129.00,10,116.10,refunded,bank_transfer,mobile
+568,2026-08-19T19:34:00Z,4,John Smith,john.smith@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,refunded,card,mobile
+569,2026-06-28T16:27:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,paypal,mobile
+570,2026-05-28T03:27:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,10,Water Bottle,Lifestyle,2,22.00,15,37.40,completed,card,mobile
+571,2026-04-15T08:12:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,2,Mechanical Keyboard,Electronics,1,129.00,10,116.10,completed,card,mobile
+572,2026-06-17T06:44:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,2,Mechanical Keyboard,Electronics,1,129.00,5,122.55,refunded,card,mobile
+573,2026-05-30T08:16:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,2,Mechanical Keyboard,Electronics,1,129.00,15,109.65,refunded,bank_transfer,mobile
+574,2026-04-12T06:26:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,6,Webcam,Electronics,1,79.00,15,67.15,pending,bank_transfer,mobile
+575,2026-03-06T09:36:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,6,Webcam,Electronics,1,79.00,5,75.05,completed,paypal,web
+576,2026-02-11T03:13:00Z,4,John Smith,john.smith@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,15,59.49,pending,paypal,web
+577,2026-01-14T05:24:00Z,18,Clara Dubois,clara.dubois@example.com,France,10,Water Bottle,Lifestyle,2,22.00,15,37.40,cancelled,card,web
+578,2026-01-23T02:16:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,8,Ergonomic Chair,Home Office,3,349.00,5,994.65,completed,card,web
+579,2026-06-07T20:33:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,1,Wireless Headphones,Electronics,2,89.99,5,170.98,completed,bank_transfer,web
+580,2026-02-21T21:59:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,11,Backpack,Accessories,1,74.00,0,74.00,refunded,bank_transfer,web
+581,2026-05-13T22:14:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,1,Wireless Headphones,Electronics,2,89.99,10,161.98,pending,card,web
+582,2026-01-23T08:49:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,4,27-inch Monitor,Electronics,2,299.00,0,598.00,completed,card,mobile
+583,2026-07-08T22:04:00Z,13,Alex Martin,alex.martin@example.com,France,10,Water Bottle,Lifestyle,1,22.00,0,22.00,completed,bank_transfer,web
+584,2026-02-27T19:12:00Z,18,Clara Dubois,clara.dubois@example.com,France,10,Water Bottle,Lifestyle,1,22.00,0,22.00,completed,paypal,mobile
+585,2026-01-28T17:04:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,5,Laptop Stand,Accessories,1,59.90,10,53.91,pending,card,web
+586,2026-07-28T18:16:00Z,4,John Smith,john.smith@example.com,United Kingdom,9,Notebook,Stationery,3,8.50,10,22.95,cancelled,paypal,mobile
+587,2026-07-18T14:43:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,8,Ergonomic Chair,Home Office,2,349.00,0,698.00,completed,bank_transfer,web
+588,2026-06-12T07:43:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,2,Mechanical Keyboard,Electronics,1,129.00,5,122.55,cancelled,card,web
+589,2026-06-29T08:15:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,6,Webcam,Electronics,1,79.00,0,79.00,completed,card,mobile
+590,2026-05-02T10:22:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,completed,bank_transfer,web
+591,2026-05-08T23:12:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,12,Bluetooth Speaker,Electronics,2,69.99,0,139.98,completed,card,web
+592,2026-08-03T19:22:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,4,27-inch Monitor,Electronics,1,299.00,0,299.00,completed,card,web
+593,2026-06-07T00:48:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,11,Backpack,Accessories,3,74.00,5,210.90,refunded,bank_transfer,web
+594,2026-08-18T18:55:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,6,Webcam,Electronics,1,79.00,5,75.05,completed,paypal,web
+595,2026-02-02T01:33:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,5,Laptop Stand,Accessories,1,59.90,10,53.91,refunded,paypal,mobile
+596,2026-08-09T21:49:00Z,18,Clara Dubois,clara.dubois@example.com,France,1,Wireless Headphones,Electronics,1,89.99,5,85.49,completed,paypal,web
+597,2026-01-04T21:13:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,completed,bank_transfer,web
+598,2026-02-17T17:16:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,6,Webcam,Electronics,1,79.00,0,79.00,completed,card,mobile
+599,2026-04-19T06:26:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,6,Webcam,Electronics,1,79.00,5,75.05,cancelled,card,web
+600,2026-02-03T18:43:00Z,13,Alex Martin,alex.martin@example.com,France,5,Laptop Stand,Accessories,1,59.90,10,53.91,completed,card,web
+601,2026-02-20T04:51:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,9,Notebook,Stationery,1,8.50,5,8.07,cancelled,card,mobile
+602,2026-08-17T20:33:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,3,USB-C Hub,Electronics,1,49.50,0,49.50,pending,card,mobile
+603,2026-01-13T12:06:00Z,10,George Brown,george.brown@example.com,United States,5,Laptop Stand,Accessories,1,59.90,10,53.91,cancelled,card,web
+604,2026-01-25T14:47:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,5,Laptop Stand,Accessories,1,59.90,15,50.91,completed,card,web
+605,2026-03-30T00:26:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,9,Notebook,Stationery,1,8.50,0,8.50,completed,card,mobile
+606,2026-05-18T05:49:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,10,Water Bottle,Lifestyle,1,22.00,15,18.70,completed,card,web
+607,2026-08-16T02:24:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,8,Ergonomic Chair,Home Office,2,349.00,5,663.10,pending,card,mobile
+608,2026-04-18T20:39:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,3,USB-C Hub,Electronics,1,49.50,0,49.50,pending,paypal,web
+609,2026-03-23T20:18:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,3,USB-C Hub,Electronics,1,49.50,0,49.50,cancelled,card,mobile
+610,2026-07-11T18:33:00Z,13,Alex Martin,alex.martin@example.com,France,5,Laptop Stand,Accessories,2,59.90,0,119.80,completed,paypal,web
+611,2026-06-19T08:47:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,1,Wireless Headphones,Electronics,1,89.99,0,89.99,cancelled,card,web
+612,2026-08-28T15:35:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,mobile
+613,2026-02-09T02:41:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,2,Mechanical Keyboard,Electronics,1,129.00,10,116.10,completed,card,web
+614,2026-02-02T04:33:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,12,Bluetooth Speaker,Electronics,1,69.99,15,59.49,refunded,card,web
+615,2026-08-10T15:29:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,11,Backpack,Accessories,1,74.00,0,74.00,refunded,bank_transfer,web
+616,2026-05-19T05:37:00Z,18,Clara Dubois,clara.dubois@example.com,France,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,pending,paypal,mobile
+617,2026-03-21T11:30:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,9,Notebook,Stationery,1,8.50,10,7.65,pending,card,web
+618,2026-02-09T09:00:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,bank_transfer,web
+619,2026-06-26T15:48:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,card,web
+620,2026-05-21T11:12:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,bank_transfer,mobile
+621,2026-06-15T12:53:00Z,13,Alex Martin,alex.martin@example.com,France,4,27-inch Monitor,Electronics,1,299.00,15,254.15,completed,card,web
+622,2026-07-15T19:51:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,7,Desk Lamp,Home Office,1,39.99,10,35.99,cancelled,card,web
+623,2026-02-16T04:18:00Z,18,Clara Dubois,clara.dubois@example.com,France,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,paypal,mobile
+624,2026-02-18T10:01:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,5,Laptop Stand,Accessories,2,59.90,5,113.81,completed,card,mobile
+625,2026-03-10T04:45:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,3,USB-C Hub,Electronics,3,49.50,0,148.50,completed,card,web
+626,2026-03-29T13:19:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,3,USB-C Hub,Electronics,1,49.50,0,49.50,refunded,paypal,web
+627,2026-01-21T04:03:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,12,Bluetooth Speaker,Electronics,2,69.99,0,139.98,completed,paypal,web
+628,2026-07-29T12:53:00Z,18,Clara Dubois,clara.dubois@example.com,France,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,completed,card,web
+629,2026-02-20T14:47:00Z,13,Alex Martin,alex.martin@example.com,France,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,refunded,card,mobile
+630,2026-08-28T10:10:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,cancelled,card,mobile
+631,2026-03-18T06:23:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,2,Mechanical Keyboard,Electronics,1,129.00,15,109.65,completed,card,web
+632,2026-02-12T08:37:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,11,Backpack,Accessories,1,74.00,0,74.00,completed,paypal,web
+633,2026-05-02T22:38:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,1,Wireless Headphones,Electronics,1,89.99,15,76.49,completed,card,web
+634,2026-06-08T10:59:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,3,USB-C Hub,Electronics,1,49.50,15,42.07,refunded,card,web
+635,2026-07-22T03:08:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,11,Backpack,Accessories,1,74.00,10,66.60,completed,card,web
+636,2026-07-07T06:01:00Z,18,Clara Dubois,clara.dubois@example.com,France,11,Backpack,Accessories,2,74.00,5,140.60,cancelled,paypal,web
+637,2026-06-30T14:35:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,5,Laptop Stand,Accessories,2,59.90,5,113.81,completed,bank_transfer,mobile
+638,2026-03-24T23:29:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,10,Water Bottle,Lifestyle,1,22.00,0,22.00,completed,bank_transfer,mobile
+639,2026-03-17T08:34:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,2,Mechanical Keyboard,Electronics,1,129.00,5,122.55,completed,paypal,web
+640,2026-06-08T11:49:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,7,Desk Lamp,Home Office,2,39.99,0,79.98,pending,card,web
+641,2026-02-18T16:43:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,11,Backpack,Accessories,3,74.00,5,210.90,completed,bank_transfer,web
+642,2026-03-24T03:06:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,5,Laptop Stand,Accessories,1,59.90,15,50.91,pending,card,web
+643,2026-01-28T15:12:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,3,USB-C Hub,Electronics,2,49.50,0,99.00,completed,card,mobile
+644,2026-06-29T18:16:00Z,13,Alex Martin,alex.martin@example.com,France,11,Backpack,Accessories,1,74.00,10,66.60,completed,card,web
+645,2026-06-17T15:59:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,refunded,card,mobile
+646,2026-07-30T11:50:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,6,Webcam,Electronics,1,79.00,5,75.05,cancelled,card,mobile
+647,2026-08-02T09:04:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,9,Notebook,Stationery,1,8.50,0,8.50,completed,bank_transfer,web
+648,2026-02-18T06:33:00Z,4,John Smith,john.smith@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,5,66.49,cancelled,card,mobile
+649,2026-07-11T03:49:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,9,Notebook,Stationery,2,8.50,5,16.15,cancelled,bank_transfer,web
+650,2026-02-12T05:35:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,12,Bluetooth Speaker,Electronics,2,69.99,0,139.98,completed,bank_transfer,web
+651,2026-08-27T11:57:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,9,Notebook,Stationery,4,8.50,5,32.30,completed,bank_transfer,web
+652,2026-07-31T23:20:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,7,Desk Lamp,Home Office,2,39.99,5,75.98,pending,card,mobile
+653,2026-08-26T23:16:00Z,18,Clara Dubois,clara.dubois@example.com,France,4,27-inch Monitor,Electronics,1,299.00,10,269.10,completed,paypal,mobile
+654,2026-06-02T00:33:00Z,13,Alex Martin,alex.martin@example.com,France,1,Wireless Headphones,Electronics,2,89.99,0,179.98,completed,card,web
+655,2026-01-06T22:52:00Z,10,George Brown,george.brown@example.com,United States,4,27-inch Monitor,Electronics,1,299.00,0,299.00,completed,bank_transfer,mobile
+656,2026-01-25T01:29:00Z,18,Clara Dubois,clara.dubois@example.com,France,10,Water Bottle,Lifestyle,3,22.00,0,66.00,completed,card,web
+657,2026-03-01T08:51:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,6,Webcam,Electronics,2,79.00,0,158.00,completed,card,mobile
+658,2026-01-20T23:20:00Z,13,Alex Martin,alex.martin@example.com,France,10,Water Bottle,Lifestyle,3,22.00,15,56.10,refunded,paypal,web
+659,2026-06-02T20:19:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,12,Bluetooth Speaker,Electronics,2,69.99,0,139.98,completed,bank_transfer,mobile
+660,2026-03-31T13:26:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,1,Wireless Headphones,Electronics,3,89.99,0,269.97,refunded,card,web
+661,2026-04-08T01:19:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,1,Wireless Headphones,Electronics,1,89.99,15,76.49,pending,card,web
+662,2026-06-28T07:09:00Z,18,Clara Dubois,clara.dubois@example.com,France,10,Water Bottle,Lifestyle,1,22.00,10,19.80,completed,paypal,mobile
+663,2026-04-21T09:50:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,10,Water Bottle,Lifestyle,1,22.00,0,22.00,completed,card,web
+664,2026-01-13T17:25:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,2,Mechanical Keyboard,Electronics,1,129.00,15,109.65,completed,card,mobile
+665,2026-07-15T04:30:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,7,Desk Lamp,Home Office,2,39.99,0,79.98,pending,card,mobile
+666,2026-06-07T23:33:00Z,13,Alex Martin,alex.martin@example.com,France,11,Backpack,Accessories,1,74.00,10,66.60,completed,card,web
+667,2026-01-23T03:42:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,7,Desk Lamp,Home Office,1,39.99,10,35.99,completed,paypal,web
+668,2026-06-17T00:49:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,4,27-inch Monitor,Electronics,1,299.00,10,269.10,completed,card,web
+669,2026-01-12T07:12:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,8,Ergonomic Chair,Home Office,1,349.00,5,331.55,cancelled,card,web
+670,2026-08-31T19:59:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,2,Mechanical Keyboard,Electronics,2,129.00,0,258.00,completed,card,web
+671,2026-04-26T15:01:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,12,Bluetooth Speaker,Electronics,2,69.99,0,139.98,completed,card,mobile
+672,2026-05-21T15:39:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,4,27-inch Monitor,Electronics,1,299.00,0,299.00,cancelled,card,web
+673,2026-01-12T08:10:00Z,13,Alex Martin,alex.martin@example.com,France,10,Water Bottle,Lifestyle,3,22.00,10,59.40,completed,card,web
+674,2026-08-30T00:04:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,5,Laptop Stand,Accessories,1,59.90,15,50.91,completed,card,web
+675,2026-04-09T07:24:00Z,4,John Smith,john.smith@example.com,United Kingdom,1,Wireless Headphones,Electronics,1,89.99,15,76.49,pending,card,web
+676,2026-02-20T16:29:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,10,Water Bottle,Lifestyle,1,22.00,0,22.00,pending,card,web
+677,2026-04-11T23:10:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,9,Notebook,Stationery,1,8.50,5,8.07,completed,card,web
+678,2026-03-12T01:40:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,11,Backpack,Accessories,1,74.00,10,66.60,completed,paypal,web
+679,2026-08-18T12:42:00Z,18,Clara Dubois,clara.dubois@example.com,France,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,card,mobile
+680,2026-06-25T07:26:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,11,Backpack,Accessories,1,74.00,15,62.90,completed,bank_transfer,web
+681,2026-04-25T17:08:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,5,Laptop Stand,Accessories,3,59.90,0,179.70,completed,card,mobile
+682,2026-03-21T22:45:00Z,18,Clara Dubois,clara.dubois@example.com,France,11,Backpack,Accessories,2,74.00,0,148.00,pending,card,mobile
+683,2026-03-23T02:35:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,11,Backpack,Accessories,3,74.00,0,222.00,pending,card,web
+684,2026-08-14T13:26:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,3,USB-C Hub,Electronics,2,49.50,0,99.00,completed,paypal,web
+685,2026-01-07T19:39:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,4,27-inch Monitor,Electronics,1,299.00,0,299.00,completed,bank_transfer,mobile
+686,2026-06-25T00:22:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,4,27-inch Monitor,Electronics,1,299.00,0,299.00,completed,paypal,web
+687,2026-04-06T05:54:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,10,Water Bottle,Lifestyle,1,22.00,15,18.70,completed,paypal,mobile
+688,2026-04-15T00:59:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,paypal,web
+689,2026-08-10T19:31:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,4,27-inch Monitor,Electronics,1,299.00,5,284.05,cancelled,card,mobile
+690,2026-06-05T23:52:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,mobile
+691,2026-05-15T20:56:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,12,Bluetooth Speaker,Electronics,1,69.99,10,62.99,cancelled,card,mobile
+692,2026-08-13T07:33:00Z,4,John Smith,john.smith@example.com,United Kingdom,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,pending,paypal,web
+693,2026-01-13T06:18:00Z,18,Clara Dubois,clara.dubois@example.com,France,7,Desk Lamp,Home Office,1,39.99,15,33.99,completed,paypal,web
+694,2026-06-06T01:44:00Z,10,George Brown,george.brown@example.com,United States,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,pending,card,mobile
+695,2026-02-16T18:57:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,2,Mechanical Keyboard,Electronics,2,129.00,0,258.00,cancelled,bank_transfer,web
+696,2026-02-15T14:37:00Z,13,Alex Martin,alex.martin@example.com,France,7,Desk Lamp,Home Office,1,39.99,0,39.99,cancelled,card,mobile
+697,2026-08-21T22:50:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,5,Laptop Stand,Accessories,1,59.90,15,50.91,completed,card,web
+698,2026-01-22T16:45:00Z,4,John Smith,john.smith@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,bank_transfer,mobile
+699,2026-07-16T05:58:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,bank_transfer,web
+700,2026-01-14T13:19:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,3,USB-C Hub,Electronics,1,49.50,15,42.07,completed,paypal,web
+701,2026-01-01T19:48:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,2,Mechanical Keyboard,Electronics,2,129.00,0,258.00,completed,card,mobile
+702,2026-06-05T15:15:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,completed,bank_transfer,mobile
+703,2026-06-03T00:15:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,7,Desk Lamp,Home Office,1,39.99,10,35.99,pending,card,mobile
+704,2026-01-15T20:22:00Z,18,Clara Dubois,clara.dubois@example.com,France,4,27-inch Monitor,Electronics,1,299.00,0,299.00,completed,card,web
+705,2026-01-13T03:26:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,10,Water Bottle,Lifestyle,1,22.00,0,22.00,completed,card,web
+706,2026-05-27T17:11:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,11,Backpack,Accessories,2,74.00,10,133.20,completed,bank_transfer,web
+707,2026-04-05T12:52:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,2,Mechanical Keyboard,Electronics,2,129.00,0,258.00,completed,paypal,mobile
+708,2026-06-27T08:21:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,5,Laptop Stand,Accessories,1,59.90,0,59.90,pending,paypal,mobile
+709,2026-01-28T18:46:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,cancelled,bank_transfer,web
+710,2026-03-15T13:38:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,12,Bluetooth Speaker,Electronics,2,69.99,15,118.98,refunded,card,web
+711,2026-08-26T04:39:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,10,Water Bottle,Lifestyle,4,22.00,0,88.00,pending,paypal,mobile
+712,2026-03-01T22:18:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,8,Ergonomic Chair,Home Office,2,349.00,10,628.20,completed,card,web
+713,2026-07-08T06:51:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,pending,paypal,mobile
+714,2026-02-24T00:40:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,6,Webcam,Electronics,1,79.00,15,67.15,completed,card,web
+715,2026-03-24T00:07:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,5,Laptop Stand,Accessories,1,59.90,10,53.91,cancelled,card,web
+716,2026-08-02T05:12:00Z,13,Alex Martin,alex.martin@example.com,France,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,card,mobile
+717,2026-02-09T20:29:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,1,Wireless Headphones,Electronics,1,89.99,5,85.49,refunded,bank_transfer,web
+718,2026-08-02T16:19:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,7,Desk Lamp,Home Office,3,39.99,0,119.97,pending,card,mobile
+719,2026-03-26T11:04:00Z,18,Clara Dubois,clara.dubois@example.com,France,1,Wireless Headphones,Electronics,1,89.99,15,76.49,completed,card,web
+720,2026-05-27T19:24:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,bank_transfer,web
+721,2026-01-09T08:26:00Z,10,George Brown,george.brown@example.com,United States,12,Bluetooth Speaker,Electronics,2,69.99,15,118.98,completed,paypal,web
+722,2026-02-25T16:19:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,8,Ergonomic Chair,Home Office,2,349.00,0,698.00,completed,card,web
+723,2026-05-10T00:51:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,4,27-inch Monitor,Electronics,3,299.00,5,852.15,completed,bank_transfer,web
+724,2026-08-12T16:19:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,6,Webcam,Electronics,3,79.00,15,201.45,refunded,card,web
+725,2026-02-22T23:02:00Z,4,John Smith,john.smith@example.com,United Kingdom,9,Notebook,Stationery,2,8.50,0,17.00,completed,paypal,mobile
+726,2026-06-25T19:55:00Z,4,John Smith,john.smith@example.com,United Kingdom,1,Wireless Headphones,Electronics,1,89.99,0,89.99,completed,card,mobile
+727,2026-07-10T09:01:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,2,Mechanical Keyboard,Electronics,1,129.00,15,109.65,pending,card,web
+728,2026-05-17T10:49:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,4,27-inch Monitor,Electronics,1,299.00,0,299.00,completed,card,web
+729,2026-06-09T17:32:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,card,mobile
+730,2026-08-30T22:51:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,9,Notebook,Stationery,1,8.50,0,8.50,completed,bank_transfer,web
+731,2026-05-19T14:03:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,completed,card,mobile
+732,2026-04-20T12:11:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,cancelled,bank_transfer,mobile
+733,2026-07-29T06:45:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,10,Water Bottle,Lifestyle,1,22.00,0,22.00,refunded,bank_transfer,web
+734,2026-04-30T03:29:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,10,Water Bottle,Lifestyle,1,22.00,15,18.70,completed,paypal,mobile
+735,2026-03-08T11:25:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,4,27-inch Monitor,Electronics,1,299.00,10,269.10,completed,card,web
+736,2026-01-29T11:30:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,8,Ergonomic Chair,Home Office,1,349.00,5,331.55,completed,card,web
+737,2026-01-27T12:52:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,10,Water Bottle,Lifestyle,1,22.00,10,19.80,cancelled,card,web
+738,2026-05-17T14:25:00Z,18,Clara Dubois,clara.dubois@example.com,France,11,Backpack,Accessories,1,74.00,0,74.00,pending,paypal,web
+739,2026-04-09T02:21:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,4,27-inch Monitor,Electronics,1,299.00,5,284.05,completed,bank_transfer,mobile
+740,2026-06-27T07:11:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,10,Water Bottle,Lifestyle,2,22.00,10,39.60,cancelled,card,mobile
+741,2026-03-25T17:06:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,2,Mechanical Keyboard,Electronics,1,129.00,5,122.55,refunded,paypal,web
+742,2026-06-25T19:49:00Z,10,George Brown,george.brown@example.com,United States,7,Desk Lamp,Home Office,1,39.99,0,39.99,refunded,paypal,web
+743,2026-02-25T04:56:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,11,Backpack,Accessories,2,74.00,0,148.00,pending,card,web
+744,2026-06-07T18:28:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,8,Ergonomic Chair,Home Office,1,349.00,5,331.55,completed,card,web
+745,2026-03-19T13:45:00Z,10,George Brown,george.brown@example.com,United States,10,Water Bottle,Lifestyle,2,22.00,15,37.40,completed,card,mobile
+746,2026-08-05T04:54:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,10,Water Bottle,Lifestyle,4,22.00,5,83.60,completed,card,web
+747,2026-07-30T11:07:00Z,18,Clara Dubois,clara.dubois@example.com,France,1,Wireless Headphones,Electronics,1,89.99,10,80.99,refunded,card,web
+748,2026-06-10T10:45:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,7,Desk Lamp,Home Office,2,39.99,5,75.98,completed,paypal,mobile
+749,2026-05-02T04:12:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,9,Notebook,Stationery,1,8.50,0,8.50,pending,paypal,web
+750,2026-02-02T04:00:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,3,USB-C Hub,Electronics,1,49.50,15,42.07,completed,card,web
+751,2026-01-22T04:41:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,11,Backpack,Accessories,1,74.00,0,74.00,refunded,paypal,mobile
+752,2026-05-11T13:35:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,7,Desk Lamp,Home Office,1,39.99,5,37.99,refunded,paypal,mobile
+753,2026-01-02T18:31:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,4,27-inch Monitor,Electronics,1,299.00,10,269.10,refunded,card,mobile
+754,2026-04-04T01:02:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,7,Desk Lamp,Home Office,3,39.99,10,107.97,pending,paypal,web
+755,2026-01-21T04:46:00Z,4,John Smith,john.smith@example.com,United Kingdom,10,Water Bottle,Lifestyle,1,22.00,15,18.70,cancelled,bank_transfer,web
+756,2026-01-23T07:30:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,9,Notebook,Stationery,1,8.50,10,7.65,cancelled,card,mobile
+757,2026-05-17T00:30:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,bank_transfer,mobile
+758,2026-07-24T09:18:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,card,mobile
+759,2026-01-16T20:30:00Z,10,George Brown,george.brown@example.com,United States,12,Bluetooth Speaker,Electronics,2,69.99,0,139.98,pending,card,mobile
+760,2026-06-09T00:18:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,11,Backpack,Accessories,4,74.00,15,251.60,completed,card,web
+761,2026-03-06T04:39:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,2,Mechanical Keyboard,Electronics,2,129.00,0,258.00,completed,card,web
+762,2026-08-21T18:47:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,paypal,web
+763,2026-05-05T05:51:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,5,Laptop Stand,Accessories,2,59.90,0,119.80,pending,card,web
+764,2026-08-03T15:48:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,paypal,web
+765,2026-05-28T23:53:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,card,web
+766,2026-05-02T09:30:00Z,4,John Smith,john.smith@example.com,United Kingdom,1,Wireless Headphones,Electronics,1,89.99,5,85.49,cancelled,bank_transfer,web
+767,2026-03-09T04:33:00Z,13,Alex Martin,alex.martin@example.com,France,11,Backpack,Accessories,2,74.00,5,140.60,refunded,paypal,web
+768,2026-05-16T21:02:00Z,10,George Brown,george.brown@example.com,United States,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,completed,bank_transfer,web
+769,2026-03-27T08:17:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,10,Water Bottle,Lifestyle,3,22.00,0,66.00,refunded,card,web
+770,2026-07-11T07:46:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,7,Desk Lamp,Home Office,1,39.99,15,33.99,cancelled,bank_transfer,web
+771,2026-03-22T17:00:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,6,Webcam,Electronics,2,79.00,0,158.00,cancelled,card,web
+772,2026-06-25T14:22:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,web
+773,2026-01-15T19:42:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,1,Wireless Headphones,Electronics,1,89.99,0,89.99,refunded,card,mobile
+774,2026-08-08T19:08:00Z,4,John Smith,john.smith@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,3,69.99,0,209.97,completed,bank_transfer,web
+775,2026-04-30T21:59:00Z,4,John Smith,john.smith@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,paypal,web
+776,2026-03-07T05:49:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,3,69.99,0,209.97,completed,card,web
+777,2026-03-08T08:11:00Z,13,Alex Martin,alex.martin@example.com,France,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,mobile
+778,2026-05-06T03:09:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,10,Water Bottle,Lifestyle,1,22.00,15,18.70,pending,paypal,web
+779,2026-07-03T08:06:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,11,Backpack,Accessories,1,74.00,5,70.30,completed,card,web
+780,2026-01-05T15:09:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,12,Bluetooth Speaker,Electronics,1,69.99,5,66.49,cancelled,card,web
+781,2026-08-20T12:36:00Z,13,Alex Martin,alex.martin@example.com,France,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,bank_transfer,mobile
+782,2026-07-19T02:34:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,7,Desk Lamp,Home Office,1,39.99,15,33.99,completed,card,mobile
+783,2026-03-27T21:19:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,completed,card,web
+784,2026-01-21T14:48:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,9,Notebook,Stationery,2,8.50,0,17.00,refunded,card,web
+785,2026-06-19T06:19:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,9,Notebook,Stationery,1,8.50,5,8.07,cancelled,paypal,web
+786,2026-04-23T23:12:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,completed,card,web
+787,2026-05-06T12:04:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,12,Bluetooth Speaker,Electronics,4,69.99,0,279.96,refunded,bank_transfer,web
+788,2026-01-05T01:21:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,9,Notebook,Stationery,3,8.50,5,24.22,completed,card,web
+789,2026-06-20T16:29:00Z,13,Alex Martin,alex.martin@example.com,France,2,Mechanical Keyboard,Electronics,1,129.00,15,109.65,cancelled,bank_transfer,web
+790,2026-07-08T04:31:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,4,27-inch Monitor,Electronics,3,299.00,0,897.00,cancelled,card,mobile
+791,2026-02-03T00:11:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,1,Wireless Headphones,Electronics,1,89.99,15,76.49,cancelled,card,web
+792,2026-01-17T03:07:00Z,4,John Smith,john.smith@example.com,United Kingdom,8,Ergonomic Chair,Home Office,1,349.00,10,314.10,completed,bank_transfer,mobile
+793,2026-03-28T23:43:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,2,Mechanical Keyboard,Electronics,2,129.00,5,245.10,completed,card,web
+794,2026-07-15T01:37:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,9,Notebook,Stationery,1,8.50,0,8.50,completed,card,web
+795,2026-02-13T22:23:00Z,4,John Smith,john.smith@example.com,United Kingdom,5,Laptop Stand,Accessories,1,59.90,5,56.90,pending,card,mobile
+796,2026-07-22T20:39:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,10,Water Bottle,Lifestyle,1,22.00,0,22.00,completed,card,web
+797,2026-08-26T02:45:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,cancelled,bank_transfer,web
+798,2026-06-27T04:13:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,2,69.99,5,132.98,completed,card,mobile
+799,2026-06-06T22:02:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,7,Desk Lamp,Home Office,1,39.99,0,39.99,pending,card,mobile
+800,2026-03-31T13:00:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,pending,card,web
+801,2026-04-03T17:32:00Z,4,John Smith,john.smith@example.com,United Kingdom,9,Notebook,Stationery,3,8.50,10,22.95,completed,paypal,web
+802,2026-06-25T15:31:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,1,Wireless Headphones,Electronics,1,89.99,0,89.99,completed,card,web
+803,2026-04-22T08:21:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,11,Backpack,Accessories,1,74.00,0,74.00,pending,paypal,web
+804,2026-02-15T05:50:00Z,4,John Smith,john.smith@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,10,62.99,completed,paypal,mobile
+805,2026-04-24T18:37:00Z,4,John Smith,john.smith@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,2,129.00,15,219.30,completed,paypal,web
+806,2026-02-28T03:15:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,4,27-inch Monitor,Electronics,2,299.00,0,598.00,cancelled,paypal,web
+807,2026-05-05T01:56:00Z,13,Alex Martin,alex.martin@example.com,France,4,27-inch Monitor,Electronics,1,299.00,10,269.10,completed,card,web
+808,2026-02-04T14:46:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,completed,card,web
+809,2026-05-26T01:17:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,6,Webcam,Electronics,1,79.00,15,67.15,completed,card,mobile
+810,2026-02-26T09:38:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,bank_transfer,web
+811,2026-04-16T16:31:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,9,Notebook,Stationery,2,8.50,0,17.00,refunded,card,mobile
+812,2026-04-20T23:55:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,completed,card,web
+813,2026-08-31T04:58:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,10,Water Bottle,Lifestyle,1,22.00,10,19.80,pending,card,mobile
+814,2026-07-16T16:02:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,1,Wireless Headphones,Electronics,4,89.99,15,305.97,completed,bank_transfer,mobile
+815,2026-05-07T07:05:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,12,Bluetooth Speaker,Electronics,2,69.99,5,132.98,pending,card,mobile
+816,2026-06-15T02:01:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,card,web
+817,2026-04-27T14:49:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,10,Water Bottle,Lifestyle,2,22.00,0,44.00,completed,paypal,web
+818,2026-01-01T20:04:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,11,Backpack,Accessories,1,74.00,15,62.90,completed,card,mobile
+819,2026-06-28T19:34:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,5,Laptop Stand,Accessories,1,59.90,0,59.90,pending,card,web
+820,2026-05-12T21:23:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,6,Webcam,Electronics,2,79.00,0,158.00,completed,card,mobile
+821,2026-04-04T05:41:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,pending,card,mobile
+822,2026-05-19T03:41:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,3,USB-C Hub,Electronics,4,49.50,0,198.00,completed,bank_transfer,web
+823,2026-05-09T21:27:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,6,Webcam,Electronics,1,79.00,0,79.00,completed,card,web
+824,2026-05-15T03:30:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,6,Webcam,Electronics,1,79.00,10,71.10,cancelled,bank_transfer,mobile
+825,2026-08-31T22:51:00Z,10,George Brown,george.brown@example.com,United States,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,completed,card,mobile
+826,2026-03-15T02:06:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,completed,card,web
+827,2026-05-14T20:01:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,completed,paypal,mobile
+828,2026-07-08T20:01:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,8,Ergonomic Chair,Home Office,1,349.00,5,331.55,completed,card,web
+829,2026-06-15T10:26:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,4,27-inch Monitor,Electronics,2,299.00,10,538.20,pending,card,web
+830,2026-08-04T17:28:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,10,Water Bottle,Lifestyle,2,22.00,10,39.60,completed,card,mobile
+831,2026-02-28T15:23:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,card,web
+832,2026-06-08T05:45:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,5,Laptop Stand,Accessories,1,59.90,0,59.90,pending,card,web
+833,2026-07-23T04:10:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,12,Bluetooth Speaker,Electronics,2,69.99,15,118.98,completed,card,web
+834,2026-04-05T05:13:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,10,Water Bottle,Lifestyle,1,22.00,0,22.00,pending,card,web
+835,2026-02-11T17:19:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,3,USB-C Hub,Electronics,1,49.50,10,44.55,completed,card,mobile
+836,2026-02-09T00:47:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,3,USB-C Hub,Electronics,3,49.50,0,148.50,pending,bank_transfer,web
+837,2026-06-20T04:51:00Z,10,George Brown,george.brown@example.com,United States,8,Ergonomic Chair,Home Office,2,349.00,10,628.20,pending,paypal,web
+838,2026-02-05T21:35:00Z,4,John Smith,john.smith@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,card,web
+839,2026-04-02T02:20:00Z,13,Alex Martin,alex.martin@example.com,France,10,Water Bottle,Lifestyle,2,22.00,5,41.80,completed,bank_transfer,web
+840,2026-02-20T00:05:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,9,Notebook,Stationery,1,8.50,0,8.50,pending,paypal,web
+841,2026-06-04T19:32:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,mobile
+842,2026-04-09T11:00:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,12,Bluetooth Speaker,Electronics,2,69.99,0,139.98,completed,card,web
+843,2026-02-25T23:56:00Z,10,George Brown,george.brown@example.com,United States,8,Ergonomic Chair,Home Office,2,349.00,0,698.00,completed,paypal,mobile
+844,2026-07-06T13:08:00Z,10,George Brown,george.brown@example.com,United States,3,USB-C Hub,Electronics,2,49.50,5,94.05,refunded,bank_transfer,mobile
+845,2026-08-11T16:21:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,3,USB-C Hub,Electronics,1,49.50,5,47.02,completed,bank_transfer,mobile
+846,2026-04-17T05:35:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,1,Wireless Headphones,Electronics,1,89.99,0,89.99,completed,bank_transfer,web
+847,2026-05-22T15:02:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,3,USB-C Hub,Electronics,2,49.50,0,99.00,refunded,card,mobile
+848,2026-02-27T00:50:00Z,10,George Brown,george.brown@example.com,United States,8,Ergonomic Chair,Home Office,1,349.00,5,331.55,completed,card,web
+849,2026-02-01T20:42:00Z,10,George Brown,george.brown@example.com,United States,11,Backpack,Accessories,2,74.00,5,140.60,completed,paypal,web
+850,2026-01-31T08:31:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,bank_transfer,web
+851,2026-06-10T21:30:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,cancelled,card,web
+852,2026-02-11T18:03:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,card,mobile
+853,2026-04-03T13:40:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,6,Webcam,Electronics,1,79.00,0,79.00,completed,card,web
+854,2026-05-12T06:49:00Z,10,George Brown,george.brown@example.com,United States,9,Notebook,Stationery,1,8.50,0,8.50,cancelled,card,web
+855,2026-07-31T21:51:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,card,web
+856,2026-01-04T04:33:00Z,4,John Smith,john.smith@example.com,United Kingdom,9,Notebook,Stationery,1,8.50,0,8.50,completed,card,mobile
+857,2026-01-27T06:09:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,6,Webcam,Electronics,3,79.00,0,237.00,pending,card,web
+858,2026-08-05T17:45:00Z,18,Clara Dubois,clara.dubois@example.com,France,10,Water Bottle,Lifestyle,2,22.00,10,39.60,pending,card,mobile
+859,2026-08-25T00:30:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,completed,card,web
+860,2026-05-14T10:11:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,8,Ergonomic Chair,Home Office,2,349.00,10,628.20,cancelled,card,web
+861,2026-02-06T22:14:00Z,4,John Smith,john.smith@example.com,United Kingdom,4,27-inch Monitor,Electronics,1,299.00,15,254.15,completed,card,web
+862,2026-01-20T00:49:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,completed,paypal,web
+863,2026-05-12T18:03:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,1,129.00,15,109.65,completed,card,web
+864,2026-07-13T03:50:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,completed,bank_transfer,web
+865,2026-01-08T02:09:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,4,27-inch Monitor,Electronics,1,299.00,0,299.00,refunded,card,mobile
+866,2026-07-19T23:39:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,6,Webcam,Electronics,1,79.00,10,71.10,completed,bank_transfer,mobile
+867,2026-05-16T06:45:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,2,Mechanical Keyboard,Electronics,2,129.00,0,258.00,completed,card,web
+868,2026-08-25T06:58:00Z,18,Clara Dubois,clara.dubois@example.com,France,1,Wireless Headphones,Electronics,3,89.99,0,269.97,pending,paypal,web
+869,2026-02-16T11:24:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,card,mobile
+870,2026-02-01T14:07:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,7,Desk Lamp,Home Office,1,39.99,0,39.99,pending,card,mobile
+871,2026-01-11T02:20:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,12,Bluetooth Speaker,Electronics,1,69.99,15,59.49,completed,card,mobile
+872,2026-06-25T14:14:00Z,10,George Brown,george.brown@example.com,United States,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,pending,paypal,web
+873,2026-08-29T21:23:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,4,27-inch Monitor,Electronics,2,299.00,5,568.10,completed,card,mobile
+874,2026-06-23T02:07:00Z,4,John Smith,john.smith@example.com,United Kingdom,7,Desk Lamp,Home Office,1,39.99,15,33.99,completed,paypal,mobile
+875,2026-01-17T11:12:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,2,Mechanical Keyboard,Electronics,2,129.00,0,258.00,completed,card,mobile
+876,2026-07-05T15:17:00Z,13,Alex Martin,alex.martin@example.com,France,2,Mechanical Keyboard,Electronics,1,129.00,5,122.55,refunded,bank_transfer,mobile
+877,2026-05-02T21:38:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,11,Backpack,Accessories,3,74.00,0,222.00,completed,paypal,mobile
+878,2026-02-01T08:31:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,3,USB-C Hub,Electronics,2,49.50,0,99.00,completed,card,web
+879,2026-05-08T21:01:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,2,Mechanical Keyboard,Electronics,2,129.00,0,258.00,completed,paypal,mobile
+880,2026-01-25T02:42:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,3,USB-C Hub,Electronics,1,49.50,10,44.55,refunded,bank_transfer,mobile
+881,2026-05-06T16:16:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,4,27-inch Monitor,Electronics,1,299.00,5,284.05,pending,card,mobile
+882,2026-04-21T03:24:00Z,18,Clara Dubois,clara.dubois@example.com,France,1,Wireless Headphones,Electronics,3,89.99,0,269.97,completed,card,mobile
+883,2026-05-23T21:55:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,refunded,card,web
+884,2026-04-10T15:48:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,7,Desk Lamp,Home Office,1,39.99,15,33.99,completed,bank_transfer,mobile
+885,2026-05-02T17:54:00Z,18,Clara Dubois,clara.dubois@example.com,France,11,Backpack,Accessories,1,74.00,5,70.30,completed,bank_transfer,web
+886,2026-06-07T21:22:00Z,13,Alex Martin,alex.martin@example.com,France,5,Laptop Stand,Accessories,1,59.90,5,56.90,refunded,card,web
+887,2026-08-03T11:22:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,1,Wireless Headphones,Electronics,1,89.99,0,89.99,refunded,bank_transfer,web
+888,2026-04-02T13:22:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,web
+889,2026-08-22T22:04:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,11,Backpack,Accessories,1,74.00,0,74.00,refunded,card,web
+890,2026-01-10T14:42:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,3,USB-C Hub,Electronics,1,49.50,0,49.50,refunded,paypal,mobile
+891,2026-05-01T18:01:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,7,Desk Lamp,Home Office,1,39.99,15,33.99,completed,paypal,mobile
+892,2026-01-26T22:43:00Z,13,Alex Martin,alex.martin@example.com,France,6,Webcam,Electronics,1,79.00,5,75.05,completed,card,mobile
+893,2026-03-18T11:27:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,11,Backpack,Accessories,1,74.00,10,66.60,completed,paypal,web
+894,2026-03-18T18:25:00Z,18,Clara Dubois,clara.dubois@example.com,France,4,27-inch Monitor,Electronics,1,299.00,0,299.00,refunded,card,mobile
+895,2026-06-01T10:17:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,12,Bluetooth Speaker,Electronics,2,69.99,0,139.98,completed,bank_transfer,mobile
+896,2026-06-16T09:32:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,7,Desk Lamp,Home Office,1,39.99,0,39.99,refunded,card,mobile
+897,2026-03-06T19:32:00Z,18,Clara Dubois,clara.dubois@example.com,France,6,Webcam,Electronics,1,79.00,5,75.05,completed,bank_transfer,web
+898,2026-05-28T15:13:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,11,Backpack,Accessories,2,74.00,0,148.00,cancelled,paypal,web
+899,2026-08-28T18:46:00Z,18,Clara Dubois,clara.dubois@example.com,France,10,Water Bottle,Lifestyle,2,22.00,5,41.80,cancelled,card,mobile
+900,2026-02-08T23:43:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,6,Webcam,Electronics,1,79.00,0,79.00,refunded,card,mobile
+901,2026-06-12T06:54:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,6,Webcam,Electronics,2,79.00,0,158.00,completed,card,web
+902,2026-04-14T07:07:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,5,Laptop Stand,Accessories,2,59.90,0,119.80,completed,card,web
+903,2026-04-22T13:41:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,5,Laptop Stand,Accessories,1,59.90,10,53.91,completed,card,web
+904,2026-06-18T17:11:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,3,USB-C Hub,Electronics,1,49.50,0,49.50,cancelled,card,mobile
+905,2026-03-22T19:19:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,1,Wireless Headphones,Electronics,2,89.99,0,179.98,refunded,card,mobile
+906,2026-04-12T23:53:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,11,Backpack,Accessories,2,74.00,0,148.00,completed,card,web
+907,2026-05-14T21:53:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,pending,bank_transfer,web
+908,2026-07-17T10:21:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,refunded,bank_transfer,mobile
+909,2026-02-14T06:17:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,paypal,web
+910,2026-06-29T03:20:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,1,Wireless Headphones,Electronics,1,89.99,0,89.99,pending,paypal,mobile
+911,2026-04-03T15:45:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,5,Laptop Stand,Accessories,2,59.90,0,119.80,completed,card,web
+912,2026-07-24T01:44:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,1,Wireless Headphones,Electronics,2,89.99,15,152.98,refunded,card,web
+913,2026-04-03T21:07:00Z,18,Clara Dubois,clara.dubois@example.com,France,7,Desk Lamp,Home Office,1,39.99,15,33.99,pending,card,mobile
+914,2026-08-26T08:19:00Z,13,Alex Martin,alex.martin@example.com,France,1,Wireless Headphones,Electronics,3,89.99,5,256.47,completed,card,web
+915,2026-03-23T20:26:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,3,USB-C Hub,Electronics,3,49.50,15,126.22,refunded,card,web
+916,2026-08-26T10:45:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,8,Ergonomic Chair,Home Office,1,349.00,5,331.55,completed,card,web
+917,2026-06-04T23:52:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,9,Notebook,Stationery,1,8.50,5,8.07,pending,card,mobile
+918,2026-06-11T14:50:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,1,Wireless Headphones,Electronics,1,89.99,0,89.99,cancelled,card,web
+919,2026-05-28T02:07:00Z,13,Alex Martin,alex.martin@example.com,France,4,27-inch Monitor,Electronics,1,299.00,0,299.00,completed,card,mobile
+920,2026-04-26T15:55:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,10,Water Bottle,Lifestyle,2,22.00,0,44.00,cancelled,card,web
+921,2026-07-24T09:12:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,11,Backpack,Accessories,1,74.00,0,74.00,completed,paypal,web
+922,2026-02-27T00:01:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,7,Desk Lamp,Home Office,2,39.99,10,71.98,pending,bank_transfer,web
+923,2026-08-07T05:03:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,completed,bank_transfer,mobile
+924,2026-02-13T18:07:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,bank_transfer,mobile
+925,2026-07-02T06:12:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,11,Backpack,Accessories,1,74.00,0,74.00,refunded,card,web
+926,2026-06-03T06:52:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,mobile
+927,2026-03-16T08:15:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,7,Desk Lamp,Home Office,2,39.99,0,79.98,pending,paypal,web
+928,2026-01-22T00:30:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,10,Water Bottle,Lifestyle,2,22.00,5,41.80,completed,card,mobile
+929,2026-07-08T19:16:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,5,66.49,completed,card,mobile
+930,2026-05-01T11:38:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,1,Wireless Headphones,Electronics,1,89.99,0,89.99,cancelled,bank_transfer,web
+931,2026-03-19T12:42:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,5,Laptop Stand,Accessories,1,59.90,5,56.90,completed,card,mobile
+932,2026-05-09T15:59:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,10,Water Bottle,Lifestyle,1,22.00,0,22.00,completed,paypal,web
+933,2026-02-06T08:07:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,6,Webcam,Electronics,2,79.00,5,150.10,completed,card,web
+934,2026-03-14T08:39:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,5,Laptop Stand,Accessories,2,59.90,5,113.81,refunded,card,mobile
+935,2026-07-08T15:48:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,7,Desk Lamp,Home Office,2,39.99,0,79.98,completed,bank_transfer,mobile
+936,2026-02-16T01:30:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,4,27-inch Monitor,Electronics,1,299.00,0,299.00,completed,card,mobile
+937,2026-01-11T14:22:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,4,129.00,5,490.20,cancelled,bank_transfer,mobile
+938,2026-08-10T04:07:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,completed,card,web
+939,2026-05-11T08:36:00Z,10,George Brown,george.brown@example.com,United States,3,USB-C Hub,Electronics,2,49.50,15,84.15,cancelled,bank_transfer,web
+940,2026-02-16T13:58:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,1,Wireless Headphones,Electronics,1,89.99,10,80.99,completed,card,mobile
+941,2026-06-24T03:25:00Z,4,John Smith,john.smith@example.com,United Kingdom,6,Webcam,Electronics,1,79.00,15,67.15,completed,bank_transfer,web
+942,2026-08-01T22:42:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,3,USB-C Hub,Electronics,1,49.50,5,47.02,completed,paypal,web
+943,2026-06-17T19:28:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,11,Backpack,Accessories,1,74.00,0,74.00,completed,bank_transfer,web
+944,2026-03-24T01:47:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,1,Wireless Headphones,Electronics,2,89.99,0,179.98,completed,bank_transfer,mobile
+945,2026-03-03T12:05:00Z,13,Alex Martin,alex.martin@example.com,France,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,completed,card,web
+946,2026-02-09T03:19:00Z,13,Alex Martin,alex.martin@example.com,France,7,Desk Lamp,Home Office,1,39.99,15,33.99,completed,paypal,web
+947,2026-08-02T11:32:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,paypal,mobile
+948,2026-04-19T02:48:00Z,13,Alex Martin,alex.martin@example.com,France,8,Ergonomic Chair,Home Office,1,349.00,10,314.10,completed,card,mobile
+949,2026-01-11T16:21:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,web
+950,2026-01-22T09:29:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,9,Notebook,Stationery,1,8.50,10,7.65,completed,card,mobile
+951,2026-08-20T09:53:00Z,10,George Brown,george.brown@example.com,United States,3,USB-C Hub,Electronics,4,49.50,15,168.30,completed,bank_transfer,mobile
+952,2026-08-23T01:32:00Z,10,George Brown,george.brown@example.com,United States,10,Water Bottle,Lifestyle,1,22.00,0,22.00,completed,bank_transfer,mobile
+953,2026-05-26T08:22:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,1,129.00,15,109.65,completed,bank_transfer,web
+954,2026-04-29T05:50:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,1,Wireless Headphones,Electronics,1,89.99,15,76.49,completed,paypal,web
+955,2026-03-22T18:46:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,7,Desk Lamp,Home Office,2,39.99,0,79.98,completed,paypal,mobile
+956,2026-02-24T05:05:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,6,Webcam,Electronics,3,79.00,0,237.00,cancelled,bank_transfer,web
+957,2026-04-12T03:00:00Z,4,John Smith,john.smith@example.com,United Kingdom,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,paypal,mobile
+958,2026-07-05T15:19:00Z,13,Alex Martin,alex.martin@example.com,France,11,Backpack,Accessories,3,74.00,10,199.80,pending,bank_transfer,web
+959,2026-01-04T06:07:00Z,13,Alex Martin,alex.martin@example.com,France,5,Laptop Stand,Accessories,1,59.90,0,59.90,refunded,card,web
+960,2026-06-16T07:27:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,4,27-inch Monitor,Electronics,1,299.00,0,299.00,refunded,bank_transfer,web
+961,2026-05-02T13:01:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,5,Laptop Stand,Accessories,2,59.90,0,119.80,completed,card,web
+962,2026-05-30T07:12:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,8,Ergonomic Chair,Home Office,1,349.00,5,331.55,completed,bank_transfer,mobile
+963,2026-08-05T22:27:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,6,Webcam,Electronics,1,79.00,15,67.15,completed,paypal,mobile
+964,2026-01-10T15:25:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,bank_transfer,mobile
+965,2026-03-01T22:03:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,11,Backpack,Accessories,3,74.00,5,210.90,pending,card,mobile
+966,2026-08-17T20:26:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,6,Webcam,Electronics,1,79.00,0,79.00,completed,card,mobile
+967,2026-04-22T00:10:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,11,Backpack,Accessories,1,74.00,15,62.90,completed,card,mobile
+968,2026-05-31T21:21:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,pending,paypal,web
+969,2026-08-02T21:41:00Z,10,George Brown,george.brown@example.com,United States,12,Bluetooth Speaker,Electronics,2,69.99,5,132.98,cancelled,card,mobile
+970,2026-07-11T02:42:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,10,Water Bottle,Lifestyle,1,22.00,15,18.70,completed,card,web
+971,2026-07-23T13:31:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,card,web
+972,2026-08-14T08:22:00Z,18,Clara Dubois,clara.dubois@example.com,France,1,Wireless Headphones,Electronics,4,89.99,0,359.96,cancelled,card,web
+973,2026-04-21T03:39:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,1,Wireless Headphones,Electronics,2,89.99,0,179.98,completed,card,mobile
+974,2026-07-20T11:49:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,completed,bank_transfer,web
+975,2026-06-21T03:45:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,12,Bluetooth Speaker,Electronics,2,69.99,10,125.98,completed,paypal,mobile
+976,2026-07-20T03:52:00Z,4,John Smith,john.smith@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,2,129.00,10,232.20,pending,card,mobile
+977,2026-08-22T11:10:00Z,4,John Smith,john.smith@example.com,United Kingdom,3,USB-C Hub,Electronics,1,49.50,0,49.50,cancelled,card,mobile
+978,2026-02-09T20:23:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,8,Ergonomic Chair,Home Office,2,349.00,0,698.00,completed,card,web
+979,2026-03-04T15:21:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,8,Ergonomic Chair,Home Office,3,349.00,0,1047.00,completed,bank_transfer,web
+980,2026-04-03T20:42:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,5,Laptop Stand,Accessories,1,59.90,5,56.90,completed,card,mobile
+981,2026-04-16T13:57:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,4,27-inch Monitor,Electronics,1,299.00,5,284.05,completed,bank_transfer,web
+982,2026-07-03T16:04:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,completed,card,web
+983,2026-07-14T01:42:00Z,13,Alex Martin,alex.martin@example.com,France,3,USB-C Hub,Electronics,1,49.50,5,47.02,cancelled,card,mobile
+984,2026-08-13T16:18:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,11,Backpack,Accessories,4,74.00,15,251.60,completed,paypal,mobile
+985,2026-01-03T08:57:00Z,10,George Brown,george.brown@example.com,United States,12,Bluetooth Speaker,Electronics,2,69.99,0,139.98,pending,bank_transfer,web
+986,2026-06-09T19:41:00Z,13,Alex Martin,alex.martin@example.com,France,8,Ergonomic Chair,Home Office,1,349.00,10,314.10,completed,card,mobile
+987,2026-03-27T12:46:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,5,Laptop Stand,Accessories,1,59.90,10,53.91,cancelled,card,mobile
+988,2026-05-22T09:33:00Z,18,Clara Dubois,clara.dubois@example.com,France,5,Laptop Stand,Accessories,1,59.90,10,53.91,completed,card,web
+989,2026-08-02T09:46:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,9,Notebook,Stationery,1,8.50,0,8.50,completed,bank_transfer,web
+990,2026-04-01T03:03:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,6,Webcam,Electronics,1,79.00,10,71.10,refunded,card,mobile
+991,2026-03-28T07:51:00Z,10,George Brown,george.brown@example.com,United States,10,Water Bottle,Lifestyle,2,22.00,5,41.80,cancelled,bank_transfer,mobile
+992,2026-03-14T21:50:00Z,18,Clara Dubois,clara.dubois@example.com,France,10,Water Bottle,Lifestyle,1,22.00,0,22.00,refunded,bank_transfer,web
+993,2026-03-25T16:37:00Z,13,Alex Martin,alex.martin@example.com,France,9,Notebook,Stationery,2,8.50,0,17.00,completed,card,mobile
+994,2026-01-21T02:03:00Z,4,John Smith,john.smith@example.com,United Kingdom,3,USB-C Hub,Electronics,2,49.50,5,94.05,completed,card,mobile
+995,2026-05-15T12:37:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,pending,bank_transfer,mobile
+996,2026-04-23T22:59:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,10,Water Bottle,Lifestyle,1,22.00,5,20.90,completed,paypal,web
+997,2026-04-28T04:45:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,9,Notebook,Stationery,1,8.50,15,7.22,pending,bank_transfer,web
+998,2026-02-10T17:23:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,completed,bank_transfer,mobile
+999,2026-01-11T16:09:00Z,4,John Smith,john.smith@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,completed,card,web
+1000,2026-07-22T04:09:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,5,Laptop Stand,Accessories,1,59.90,0,59.90,refunded,bank_transfer,mobile
+1001,2026-02-16T23:31:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,5,Laptop Stand,Accessories,2,59.90,0,119.80,completed,card,mobile
+1002,2026-05-04T18:19:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,2,Mechanical Keyboard,Electronics,2,129.00,5,245.10,pending,paypal,web
+1003,2026-02-03T04:32:00Z,13,Alex Martin,alex.martin@example.com,France,8,Ergonomic Chair,Home Office,2,349.00,10,628.20,cancelled,paypal,mobile
+1004,2026-01-23T19:42:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,3,USB-C Hub,Electronics,2,49.50,0,99.00,pending,paypal,mobile
+1005,2026-06-21T14:47:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,web
+1006,2026-03-21T17:41:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,10,Water Bottle,Lifestyle,1,22.00,15,18.70,completed,bank_transfer,web
+1007,2026-05-26T16:12:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,10,Water Bottle,Lifestyle,1,22.00,0,22.00,refunded,paypal,mobile
+1008,2026-02-16T00:17:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,2,Mechanical Keyboard,Electronics,2,129.00,10,232.20,refunded,card,web
+1009,2026-06-05T10:25:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,8,Ergonomic Chair,Home Office,1,349.00,10,314.10,pending,card,mobile
+1010,2026-01-07T16:20:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,6,Webcam,Electronics,1,79.00,5,75.05,completed,card,web
+1011,2026-02-06T05:16:00Z,4,John Smith,john.smith@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,refunded,card,web
+1012,2026-06-07T10:11:00Z,10,George Brown,george.brown@example.com,United States,7,Desk Lamp,Home Office,2,39.99,0,79.98,completed,card,web
+1013,2026-08-17T10:16:00Z,13,Alex Martin,alex.martin@example.com,France,2,Mechanical Keyboard,Electronics,1,129.00,5,122.55,completed,card,web
+1014,2026-03-02T15:32:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,4,27-inch Monitor,Electronics,2,299.00,10,538.20,refunded,bank_transfer,mobile
+1015,2026-05-22T13:04:00Z,4,John Smith,john.smith@example.com,United Kingdom,5,Laptop Stand,Accessories,1,59.90,5,56.90,completed,card,mobile
+1016,2026-06-22T03:15:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,1,Wireless Headphones,Electronics,1,89.99,10,80.99,refunded,bank_transfer,web
+1017,2026-08-05T20:32:00Z,10,George Brown,george.brown@example.com,United States,10,Water Bottle,Lifestyle,1,22.00,0,22.00,completed,card,web
+1018,2026-04-19T17:28:00Z,18,Clara Dubois,clara.dubois@example.com,France,3,USB-C Hub,Electronics,2,49.50,10,89.10,completed,card,mobile
+1019,2026-01-01T01:59:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,5,Laptop Stand,Accessories,2,59.90,0,119.80,completed,card,mobile
+1020,2026-08-04T20:13:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,11,Backpack,Accessories,1,74.00,0,74.00,pending,bank_transfer,web
+1021,2026-01-18T09:05:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,3,USB-C Hub,Electronics,2,49.50,10,89.10,completed,card,web
+1022,2026-06-06T16:51:00Z,18,Clara Dubois,clara.dubois@example.com,France,5,Laptop Stand,Accessories,2,59.90,0,119.80,completed,card,web
+1023,2026-03-29T06:29:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,5,Laptop Stand,Accessories,1,59.90,0,59.90,pending,card,web
+1024,2026-05-02T00:57:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,11,Backpack,Accessories,3,74.00,10,199.80,completed,card,mobile
+1025,2026-05-18T02:50:00Z,18,Clara Dubois,clara.dubois@example.com,France,12,Bluetooth Speaker,Electronics,2,69.99,5,132.98,cancelled,card,mobile
+1026,2026-04-01T12:52:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,11,Backpack,Accessories,1,74.00,0,74.00,pending,card,mobile
+1027,2026-04-29T11:59:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,12,Bluetooth Speaker,Electronics,4,69.99,0,279.96,completed,paypal,web
+1028,2026-06-24T22:22:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,card,mobile
+1029,2026-04-03T01:17:00Z,10,George Brown,george.brown@example.com,United States,12,Bluetooth Speaker,Electronics,1,69.99,5,66.49,completed,bank_transfer,web
+1030,2026-04-12T03:55:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,4,27-inch Monitor,Electronics,4,299.00,15,1016.60,completed,bank_transfer,mobile
+1031,2026-07-09T18:43:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,3,USB-C Hub,Electronics,1,49.50,15,42.07,cancelled,bank_transfer,mobile
+1032,2026-01-17T04:16:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,2,Mechanical Keyboard,Electronics,1,129.00,15,109.65,pending,card,mobile
+1033,2026-06-27T21:34:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,4,27-inch Monitor,Electronics,2,299.00,0,598.00,pending,card,mobile
+1034,2026-06-22T20:03:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,1,Wireless Headphones,Electronics,3,89.99,15,229.47,refunded,card,mobile
+1035,2026-04-30T15:23:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,5,Laptop Stand,Accessories,1,59.90,10,53.91,pending,card,web
+1036,2026-04-25T10:00:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,5,Laptop Stand,Accessories,3,59.90,10,161.73,completed,card,web
+1037,2026-02-27T22:27:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,10,Water Bottle,Lifestyle,2,22.00,15,37.40,completed,card,web
+1038,2026-06-10T03:01:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,6,Webcam,Electronics,1,79.00,15,67.15,completed,paypal,web
+1039,2026-03-05T03:30:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,11,Backpack,Accessories,3,74.00,0,222.00,completed,card,web
+1040,2026-07-18T19:39:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,9,Notebook,Stationery,2,8.50,0,17.00,completed,card,mobile
+1041,2026-08-23T01:24:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,completed,card,web
+1042,2026-06-10T13:04:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,8,Ergonomic Chair,Home Office,1,349.00,10,314.10,completed,card,mobile
+1043,2026-01-25T19:48:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,5,Laptop Stand,Accessories,2,59.90,5,113.81,completed,card,mobile
+1044,2026-07-23T13:56:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,1,Wireless Headphones,Electronics,1,89.99,5,85.49,pending,bank_transfer,web
+1045,2026-04-27T16:21:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,11,Backpack,Accessories,3,74.00,0,222.00,pending,card,web
+1046,2026-06-01T06:57:00Z,4,John Smith,john.smith@example.com,United Kingdom,1,Wireless Headphones,Electronics,1,89.99,0,89.99,pending,card,mobile
+1047,2026-06-08T14:11:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,6,Webcam,Electronics,1,79.00,15,67.15,completed,card,web
+1048,2026-05-12T20:48:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,3,USB-C Hub,Electronics,1,49.50,5,47.02,completed,card,mobile
+1049,2026-06-04T10:18:00Z,18,Clara Dubois,clara.dubois@example.com,France,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,card,mobile
+1050,2026-03-02T16:52:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,11,Backpack,Accessories,2,74.00,0,148.00,refunded,bank_transfer,web
+1051,2026-06-13T06:50:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,6,Webcam,Electronics,1,79.00,0,79.00,completed,card,web
+1052,2026-06-03T22:21:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,12,Bluetooth Speaker,Electronics,2,69.99,5,132.98,refunded,bank_transfer,mobile
+1053,2026-02-11T03:29:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,10,Water Bottle,Lifestyle,1,22.00,0,22.00,refunded,card,mobile
+1054,2026-02-28T14:39:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,1,Wireless Headphones,Electronics,1,89.99,15,76.49,completed,card,mobile
+1055,2026-02-17T00:23:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,12,Bluetooth Speaker,Electronics,1,69.99,5,66.49,completed,card,web
+1056,2026-04-23T06:40:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,9,Notebook,Stationery,1,8.50,0,8.50,pending,card,web
+1057,2026-02-26T08:46:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,4,27-inch Monitor,Electronics,1,299.00,0,299.00,completed,card,mobile
+1058,2026-08-04T08:58:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,card,web
+1059,2026-03-28T06:19:00Z,13,Alex Martin,alex.martin@example.com,France,11,Backpack,Accessories,2,74.00,0,148.00,completed,card,web
+1060,2026-07-24T19:56:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,11,Backpack,Accessories,1,74.00,10,66.60,completed,card,web
+1061,2026-05-17T12:44:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,3,USB-C Hub,Electronics,2,49.50,0,99.00,completed,card,mobile
+1062,2026-07-15T19:37:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,11,Backpack,Accessories,1,74.00,0,74.00,completed,bank_transfer,web
+1063,2026-07-23T08:55:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,6,Webcam,Electronics,1,79.00,15,67.15,completed,bank_transfer,mobile
+1064,2026-07-22T21:39:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,4,27-inch Monitor,Electronics,2,299.00,5,568.10,completed,card,mobile
+1065,2026-05-08T16:29:00Z,13,Alex Martin,alex.martin@example.com,France,11,Backpack,Accessories,2,74.00,0,148.00,completed,card,web
+1066,2026-05-02T08:37:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,12,Bluetooth Speaker,Electronics,1,69.99,5,66.49,completed,bank_transfer,web
+1067,2026-08-09T07:25:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,4,27-inch Monitor,Electronics,2,299.00,5,568.10,completed,card,mobile
+1068,2026-03-07T17:05:00Z,13,Alex Martin,alex.martin@example.com,France,10,Water Bottle,Lifestyle,1,22.00,0,22.00,completed,card,web
+1069,2026-01-11T14:32:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,9,Notebook,Stationery,1,8.50,10,7.65,pending,card,mobile
+1070,2026-07-25T15:20:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,8,Ergonomic Chair,Home Office,1,349.00,0,349.00,completed,paypal,web
+1071,2026-01-20T11:57:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,completed,card,mobile
+1072,2026-08-26T07:06:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,9,Notebook,Stationery,1,8.50,0,8.50,completed,card,web
+1073,2026-06-22T10:16:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,9,Notebook,Stationery,1,8.50,0,8.50,completed,card,web
+1074,2026-07-09T17:58:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,3,USB-C Hub,Electronics,4,49.50,15,168.30,completed,card,web
+1075,2026-08-31T12:52:00Z,10,George Brown,george.brown@example.com,United States,6,Webcam,Electronics,2,79.00,5,150.10,pending,card,mobile
+1076,2026-02-28T23:47:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,3,USB-C Hub,Electronics,2,49.50,0,99.00,completed,paypal,web
+1077,2026-07-04T14:21:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,10,Water Bottle,Lifestyle,2,22.00,5,41.80,refunded,card,web
+1078,2026-04-17T06:28:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,7,Desk Lamp,Home Office,2,39.99,15,67.98,completed,bank_transfer,web
+1079,2026-03-20T23:00:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,3,USB-C Hub,Electronics,1,49.50,0,49.50,completed,card,web
+1080,2026-07-15T22:34:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,7,Desk Lamp,Home Office,1,39.99,5,37.99,completed,card,mobile
+1081,2026-02-09T10:36:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,10,Water Bottle,Lifestyle,2,22.00,0,44.00,cancelled,bank_transfer,mobile
+1082,2026-08-31T12:04:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,7,Desk Lamp,Home Office,4,39.99,0,159.96,pending,paypal,web
+1083,2026-06-13T09:05:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,2,Mechanical Keyboard,Electronics,1,129.00,5,122.55,completed,card,mobile
+1084,2026-05-06T00:11:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,1,Wireless Headphones,Electronics,2,89.99,10,161.98,completed,card,mobile
+1085,2026-05-15T02:29:00Z,10,George Brown,george.brown@example.com,United States,4,27-inch Monitor,Electronics,1,299.00,15,254.15,completed,card,mobile
+1086,2026-04-11T05:07:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,3,USB-C Hub,Electronics,1,49.50,5,47.02,completed,bank_transfer,mobile
+1087,2026-02-03T06:19:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,paypal,web
+1088,2026-02-21T16:45:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,10,Water Bottle,Lifestyle,3,22.00,10,59.40,cancelled,paypal,web
+1089,2026-01-17T12:38:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,1,Wireless Headphones,Electronics,4,89.99,5,341.96,refunded,card,mobile
+1090,2026-04-29T18:02:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,10,Water Bottle,Lifestyle,2,22.00,5,41.80,cancelled,card,web
+1091,2026-07-22T09:25:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,6,Webcam,Electronics,2,79.00,15,134.30,pending,card,mobile
+1092,2026-04-21T14:24:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,3,USB-C Hub,Electronics,2,49.50,15,84.15,cancelled,card,mobile
+1093,2026-03-03T05:17:00Z,4,John Smith,john.smith@example.com,United Kingdom,7,Desk Lamp,Home Office,2,39.99,0,79.98,cancelled,bank_transfer,web
+1094,2026-08-21T15:26:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,12,Bluetooth Speaker,Electronics,2,69.99,0,139.98,refunded,bank_transfer,web
+1095,2026-07-16T10:26:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,2,Mechanical Keyboard,Electronics,2,129.00,10,232.20,completed,card,web
+1096,2026-01-19T20:44:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,9,Notebook,Stationery,1,8.50,0,8.50,cancelled,paypal,mobile
+1097,2026-04-12T01:00:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,card,web
+1098,2026-04-29T02:05:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,11,Backpack,Accessories,2,74.00,5,140.60,pending,card,mobile
+1099,2026-02-13T00:38:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,8,Ergonomic Chair,Home Office,2,349.00,0,698.00,completed,card,web
+1100,2026-01-20T21:48:00Z,4,John Smith,john.smith@example.com,United Kingdom,9,Notebook,Stationery,2,8.50,0,17.00,completed,card,web
+1101,2026-01-09T21:34:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,6,Webcam,Electronics,1,79.00,15,67.15,completed,paypal,web
+1102,2026-08-18T03:24:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,11,Backpack,Accessories,2,74.00,15,125.80,cancelled,card,mobile
+1103,2026-07-16T06:59:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,10,Water Bottle,Lifestyle,1,22.00,5,20.90,completed,card,web
+1104,2026-01-04T10:52:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,completed,card,web
+1105,2026-01-12T13:32:00Z,4,John Smith,john.smith@example.com,United Kingdom,11,Backpack,Accessories,1,74.00,0,74.00,completed,card,web
+1106,2026-08-28T17:25:00Z,18,Clara Dubois,clara.dubois@example.com,France,11,Backpack,Accessories,1,74.00,0,74.00,completed,card,web
+1107,2026-01-04T12:41:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,completed,card,mobile
+1108,2026-07-28T08:41:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,pending,card,web
+1109,2026-05-08T03:45:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,4,27-inch Monitor,Electronics,1,299.00,10,269.10,pending,bank_transfer,web
+1110,2026-06-28T12:43:00Z,9,Elena Petrova,elena.petrova@example.com,Bulgaria,2,Mechanical Keyboard,Electronics,1,129.00,15,109.65,refunded,card,web
+1111,2026-03-23T21:30:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,11,Backpack,Accessories,2,74.00,15,125.80,completed,card,web
+1112,2026-06-13T23:14:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,10,Water Bottle,Lifestyle,1,22.00,10,19.80,pending,bank_transfer,web
+1113,2026-03-21T07:47:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,1,Wireless Headphones,Electronics,1,89.99,0,89.99,completed,card,mobile
+1114,2026-03-17T06:09:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,1,Wireless Headphones,Electronics,1,89.99,5,85.49,completed,card,web
+1115,2026-07-09T10:08:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,12,Bluetooth Speaker,Electronics,1,69.99,5,66.49,completed,card,web
+1116,2026-07-12T00:14:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,7,Desk Lamp,Home Office,1,39.99,0,39.99,refunded,card,web
+1117,2026-03-05T21:44:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,4,27-inch Monitor,Electronics,1,299.00,15,254.15,cancelled,card,mobile
+1118,2026-06-11T00:04:00Z,13,Alex Martin,alex.martin@example.com,France,9,Notebook,Stationery,1,8.50,5,8.07,refunded,paypal,web
+1119,2026-08-29T06:08:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,1,Wireless Headphones,Electronics,1,89.99,0,89.99,completed,card,mobile
+1120,2026-04-20T23:29:00Z,18,Clara Dubois,clara.dubois@example.com,France,4,27-inch Monitor,Electronics,1,299.00,0,299.00,completed,card,web
+1121,2026-03-19T09:36:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,web
+1122,2026-04-12T12:10:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,2,Mechanical Keyboard,Electronics,3,129.00,0,387.00,completed,paypal,mobile
+1123,2026-07-29T15:01:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,10,Water Bottle,Lifestyle,2,22.00,0,44.00,refunded,paypal,mobile
+1124,2026-05-22T23:11:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,5,Laptop Stand,Accessories,1,59.90,0,59.90,completed,paypal,mobile
+1125,2026-06-05T15:04:00Z,10,George Brown,george.brown@example.com,United States,8,Ergonomic Chair,Home Office,1,349.00,10,314.10,completed,card,mobile
+1126,2026-01-04T16:46:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,3,USB-C Hub,Electronics,3,49.50,0,148.50,cancelled,card,mobile
+1127,2026-04-06T12:31:00Z,13,Alex Martin,alex.martin@example.com,France,7,Desk Lamp,Home Office,3,39.99,15,101.97,completed,bank_transfer,web
+1128,2026-04-09T18:10:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,1,Wireless Headphones,Electronics,4,89.99,0,359.96,completed,paypal,web
+1129,2026-06-26T11:44:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,9,Notebook,Stationery,2,8.50,15,14.45,completed,paypal,mobile
+1130,2026-06-11T22:43:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,4,27-inch Monitor,Electronics,1,299.00,0,299.00,completed,card,web
+1131,2026-03-07T07:38:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,8,Ergonomic Chair,Home Office,3,349.00,0,1047.00,pending,card,web
+1132,2026-04-12T22:37:00Z,4,John Smith,john.smith@example.com,United Kingdom,2,Mechanical Keyboard,Electronics,1,129.00,5,122.55,completed,bank_transfer,web
+1133,2026-06-27T09:32:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,3,USB-C Hub,Electronics,2,49.50,0,99.00,pending,paypal,mobile
+1134,2026-08-11T02:06:00Z,10,George Brown,george.brown@example.com,United States,12,Bluetooth Speaker,Electronics,1,69.99,15,59.49,cancelled,bank_transfer,web
+1135,2026-04-12T22:19:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,5,Laptop Stand,Accessories,2,59.90,15,101.83,completed,card,mobile
+1136,2026-04-17T16:26:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,2,Mechanical Keyboard,Electronics,1,129.00,15,109.65,cancelled,card,mobile
+1137,2026-02-04T06:31:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,3,USB-C Hub,Electronics,1,49.50,15,42.07,completed,bank_transfer,web
+1138,2026-02-21T01:47:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,10,Water Bottle,Lifestyle,2,22.00,0,44.00,completed,card,web
+1139,2026-01-28T20:10:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,8,Ergonomic Chair,Home Office,1,349.00,10,314.10,completed,card,web
+1140,2026-01-08T18:15:00Z,13,Alex Martin,alex.martin@example.com,France,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,completed,paypal,web
+1141,2026-06-20T18:50:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,1,Wireless Headphones,Electronics,1,89.99,0,89.99,completed,card,web
+1142,2026-07-14T08:59:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,1,Wireless Headphones,Electronics,1,89.99,10,80.99,completed,paypal,web
+1143,2026-08-16T10:20:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,7,Desk Lamp,Home Office,1,39.99,15,33.99,refunded,card,web
+1144,2026-08-12T10:51:00Z,13,Alex Martin,alex.martin@example.com,France,7,Desk Lamp,Home Office,1,39.99,0,39.99,completed,card,mobile
+1145,2026-01-07T19:07:00Z,13,Alex Martin,alex.martin@example.com,France,12,Bluetooth Speaker,Electronics,2,69.99,0,139.98,refunded,bank_transfer,web
+1146,2026-06-18T15:32:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,6,Webcam,Electronics,1,79.00,15,67.15,completed,card,web
+1147,2026-07-26T23:20:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,1,Wireless Headphones,Electronics,1,89.99,0,89.99,cancelled,paypal,web
+1148,2026-07-23T02:22:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,8,Ergonomic Chair,Home Office,1,349.00,10,314.10,completed,paypal,web
+1149,2026-02-06T16:56:00Z,13,Alex Martin,alex.martin@example.com,France,5,Laptop Stand,Accessories,1,59.90,15,50.91,pending,bank_transfer,web
+1150,2026-08-02T21:35:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,8,Ergonomic Chair,Home Office,2,349.00,0,698.00,refunded,paypal,web
+1151,2026-03-03T07:13:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,2,Mechanical Keyboard,Electronics,1,129.00,10,116.10,completed,card,web
+1152,2026-08-20T12:49:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,0,69.99,completed,card,web
+1153,2026-08-25T17:40:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,11,Backpack,Accessories,1,74.00,0,74.00,cancelled,paypal,web
+1154,2026-01-17T20:21:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,4,27-inch Monitor,Electronics,3,299.00,10,807.30,completed,paypal,mobile
+1155,2026-03-16T02:07:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,4,27-inch Monitor,Electronics,1,299.00,0,299.00,completed,card,mobile
+1156,2026-04-05T04:54:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,3,69.99,10,188.97,completed,paypal,mobile
+1157,2026-02-18T12:27:00Z,1,Alice Johnson,alice.johnson@example.com,Greece,5,Laptop Stand,Accessories,1,59.90,10,53.91,completed,card,web
+1158,2026-01-28T12:00:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,11,Backpack,Accessories,1,74.00,0,74.00,pending,paypal,web
+1159,2026-06-24T14:09:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,5,Laptop Stand,Accessories,2,59.90,5,113.81,pending,card,web
+1160,2026-06-26T03:17:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,10,Water Bottle,Lifestyle,1,22.00,10,19.80,refunded,bank_transfer,mobile
+1161,2026-01-16T10:09:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,8,Ergonomic Chair,Home Office,1,349.00,5,331.55,refunded,card,web
+1162,2026-04-11T09:52:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,3,USB-C Hub,Electronics,2,49.50,15,84.15,cancelled,card,web
+1163,2026-05-02T11:48:00Z,18,Clara Dubois,clara.dubois@example.com,France,7,Desk Lamp,Home Office,1,39.99,15,33.99,completed,paypal,web
+1164,2026-08-25T06:44:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,12,Bluetooth Speaker,Electronics,1,69.99,15,59.49,refunded,bank_transfer,mobile
+1165,2026-08-10T01:54:00Z,4,John Smith,john.smith@example.com,United Kingdom,3,USB-C Hub,Electronics,1,49.50,10,44.55,cancelled,card,mobile
+1166,2026-05-04T09:57:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,10,Water Bottle,Lifestyle,1,22.00,15,18.70,completed,card,web
+1167,2026-07-05T18:06:00Z,7,Emma Wilson,emma.wilson@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,2,69.99,0,139.98,cancelled,card,mobile
+1168,2026-01-25T11:30:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,11,Backpack,Accessories,2,74.00,0,148.00,completed,card,web
+1169,2026-02-08T20:46:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,11,Backpack,Accessories,1,74.00,5,70.30,completed,card,web
+1170,2026-06-26T19:11:00Z,4,John Smith,john.smith@example.com,United Kingdom,4,27-inch Monitor,Electronics,1,299.00,0,299.00,cancelled,paypal,web
+1171,2026-06-17T14:23:00Z,15,Andreas Georgiou,andreas.georgiou@example.com,Cyprus,11,Backpack,Accessories,1,74.00,15,62.90,completed,card,web
+1172,2026-08-21T16:14:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,2,Mechanical Keyboard,Electronics,1,129.00,15,109.65,completed,bank_transfer,mobile
+1173,2026-01-25T18:11:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,completed,paypal,mobile
+1174,2026-01-17T22:58:00Z,10,George Brown,george.brown@example.com,United States,10,Water Bottle,Lifestyle,1,22.00,0,22.00,refunded,bank_transfer,web
+1175,2026-07-29T17:50:00Z,13,Alex Martin,alex.martin@example.com,France,12,Bluetooth Speaker,Electronics,1,69.99,10,62.99,refunded,bank_transfer,mobile
+1176,2026-07-02T20:07:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,9,Notebook,Stationery,2,8.50,10,15.30,refunded,card,web
+1177,2026-05-23T14:51:00Z,6,Daniel Müller,daniel.mueller@example.com,Germany,10,Water Bottle,Lifestyle,2,22.00,0,44.00,completed,card,web
+1178,2026-01-23T17:16:00Z,5,Sofia Garcia,sofia.garcia@example.com,Spain,10,Water Bottle,Lifestyle,1,22.00,0,22.00,refunded,card,web
+1179,2026-02-13T13:42:00Z,4,John Smith,john.smith@example.com,United Kingdom,9,Notebook,Stationery,1,8.50,10,7.65,completed,card,web
+1180,2026-06-18T17:28:00Z,2,Nikos Papadopoulos,nikos.papadopoulos@example.com,Greece,9,Notebook,Stationery,3,8.50,0,25.50,completed,bank_transfer,mobile
+1181,2026-06-05T17:32:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,9,Notebook,Stationery,3,8.50,0,25.50,completed,card,web
+1182,2026-08-08T06:08:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,1,Wireless Headphones,Electronics,1,89.99,0,89.99,pending,bank_transfer,web
+1183,2026-06-09T13:04:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,6,Webcam,Electronics,1,79.00,15,67.15,pending,card,web
+1184,2026-04-27T02:16:00Z,13,Alex Martin,alex.martin@example.com,France,11,Backpack,Accessories,3,74.00,5,210.90,cancelled,paypal,web
+1185,2026-03-10T20:44:00Z,18,Clara Dubois,clara.dubois@example.com,France,4,27-inch Monitor,Electronics,1,299.00,15,254.15,cancelled,card,web
+1186,2026-06-04T05:26:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,11,Backpack,Accessories,1,74.00,10,66.60,refunded,card,web
+1187,2026-03-05T02:17:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,7,Desk Lamp,Home Office,1,39.99,10,35.99,completed,bank_transfer,web
+1188,2026-01-23T11:58:00Z,18,Clara Dubois,clara.dubois@example.com,France,7,Desk Lamp,Home Office,1,39.99,15,33.99,completed,card,web
+1189,2026-02-26T12:06:00Z,8,Luca Bianchi,luca.bianchi@example.com,Italy,5,Laptop Stand,Accessories,1,59.90,5,56.90,refunded,card,web
+1190,2026-07-30T15:06:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,12,Bluetooth Speaker,Electronics,2,69.99,10,125.98,pending,card,mobile
+1191,2026-08-18T01:10:00Z,10,George Brown,george.brown@example.com,United States,9,Notebook,Stationery,1,8.50,0,8.50,completed,paypal,web
+1192,2026-05-22T19:56:00Z,12,Yuki Tanaka,yuki.tanaka@example.com,Japan,12,Bluetooth Speaker,Electronics,2,69.99,10,125.98,refunded,paypal,mobile
+1193,2026-05-12T22:09:00Z,19,Petar Ivanov,petar.ivanov@example.com,Bulgaria,3,USB-C Hub,Electronics,1,49.50,15,42.07,cancelled,card,web
+1194,2026-08-24T23:40:00Z,13,Alex Martin,alex.martin@example.com,France,10,Water Bottle,Lifestyle,2,22.00,0,44.00,completed,card,mobile
+1195,2026-04-01T14:32:00Z,14,Olivia Taylor,olivia.taylor@example.com,United Kingdom,12,Bluetooth Speaker,Electronics,1,69.99,5,66.49,completed,card,mobile
+1196,2026-03-20T20:54:00Z,17,Mateo Silva,mateo.silva@example.com,Portugal,12,Bluetooth Speaker,Electronics,2,69.99,0,139.98,completed,card,mobile
+1197,2026-07-06T07:05:00Z,11,Anna Kowalski,anna.kowalski@example.com,Poland,2,Mechanical Keyboard,Electronics,1,129.00,0,129.00,completed,bank_transfer,web
+1198,2026-07-26T00:27:00Z,3,Maria Rossi,maria.rossi@example.com,Italy,12,Bluetooth Speaker,Electronics,1,69.99,5,66.49,cancelled,bank_transfer,web
+1199,2026-08-16T17:44:00Z,16,Laura Schmidt,laura.schmidt@example.com,Germany,8,Ergonomic Chair,Home Office,1,349.00,15,296.65,completed,paypal,web
+1200,2026-01-02T22:27:00Z,20,Sara Cohen,sara.cohen@example.com,Israel,4,27-inch Monitor,Electronics,3,299.00,15,762.45,cancelled,bank_transfer,web
